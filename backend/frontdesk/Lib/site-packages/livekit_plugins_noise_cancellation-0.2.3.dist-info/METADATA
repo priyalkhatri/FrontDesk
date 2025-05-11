@@ -1,0 +1,64 @@
+Metadata-Version: 2.4
+Name: livekit-plugins-noise-cancellation
+Version: 0.2.3
+Summary: Livekit plugin for noise cancellation of inbound AudioStream
+License: SEE LICENSE IN https://livekit.io/legal/terms-of-service
+Keywords: webrtc,realtime,audio,livekit
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: livekit>=0.21.3
+
+# Enhanced Noise Cancellation Plugin for LiveKit
+
+Add realtime enhanced noise cancellation to inbound `AudioStream`. Fully compatible with [LiveKit Agents](https://github.com/livekit/agents).
+
+Requires [LiveKit Cloud](https://cloud.livekit.io).
+
+[Read more in the documentation](https://docs.livekit.io/home/client/tracks/noise-cancellation/)
+
+## Usage
+
+### In LiveKit Agents
+
+Include the filter in `RoomInputOptions` when starting your `AgentSession`:
+
+```python
+from livekit.plugins import noise_cancellation
+
+# ...
+await session.start(
+    # ...,
+    room_input_options=room_io.RoomInputOptions(
+        noise_cancellation=noise_cancellation.BVC(),
+    ),
+)
+# ...
+```
+
+### On AudioStream
+
+Noise cancellation can also be applied to any individual inbound `AudioStream`:
+
+```python
+stream = rtc.AudioStream.from_track(
+    track=track,
+    noise_cancellation=noise_cancellation.NC(),
+)
+```
+
+## Available Models
+
+- `noise_cancellation.NC()`
+- `noise_cancellation.BVC()`
+- `noise_cancellation.BVCTelephony()`
+
+## Notes
+
+Noise cancellation only needs to be applied once, so if you choose to apply it here you should disable noise cancellation / Krisp filter in your frontend clients.
+
+If you experience crashes when using `noise_cancellation` (especially on AMD CPUs), it may be due to a failure in OpenBLAS's CPU detection. Manually setting the `OPENBLAS_CORETYPE` environment variable to a more conservative value (e.g., `Haswell`) may resolve the issue.
+
+## License
+
+See: https://livekit.io/legal/terms-of-service
+

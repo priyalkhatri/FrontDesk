@@ -1,0 +1,154 @@
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Title -->
+  <text x="600" y="30" font-size="24" font-weight="bold" text-anchor="middle">Frontdesk AI Supervisor System Architecture</text>
+  
+  <!-- Customer Section -->
+  <rect x="20" y="60" width="180" height="120" fill="#E3F2FD" stroke="#1976D2" stroke-width="2" rx="10"/>
+  <text x="110" y="110" font-size="16" font-weight="bold" text-anchor="middle">Customer</text>
+  <circle cx="110" cy="140" r="20" fill="#4CAF50"/>
+  <text x="110" y="145" font-size="14" text-anchor="middle" fill="white">☎</text>
+  
+  <!-- LiveKit SIP Gateway -->
+  <rect x="250" y="60" width="180" height="120" fill="#E8F5E9" stroke="#2E7D32" stroke-width="2" rx="10"/>
+  <text x="340" y="90" font-size="14" font-weight="bold" text-anchor="middle">LiveKit SIP Gateway</text>
+  <text x="340" y="110" font-size="12" text-anchor="middle">• Phone to WebRTC</text>
+  <text x="340" y="130" font-size="12" text-anchor="middle">• Audio Processing</text>
+  <text x="340" y="150" font-size="12" text-anchor="middle">• Call Management</text>
+  
+  <!-- AI Voice Agent -->
+  <rect x="480" y="60" width="200" height="160" fill="#FFF3E0" stroke="#F57C00" stroke-width="2" rx="10"/>
+  <text x="580" y="90" font-size="16" font-weight="bold" text-anchor="middle">AI Voice Agent</text>
+  <rect x="500" y="110" width="160" height="40" fill="#FFE0B2" rx="5"/>
+  <text x="580" y="135" font-size="12" text-anchor="middle">Speech Recognition</text>
+  <rect x="500" y="160" width="160" height="40" fill="#FFE0B2" rx="5"/>
+  <text x="580" y="185" font-size="12" text-anchor="middle">Voice Synthesis</text>
+  
+  <!-- AI Backend System -->
+  <rect x="730" y="60" width="220" height="280" fill="#F3E5F5" stroke="#7B1FA2" stroke-width="2" rx="10"/>
+  <text x="840" y="90" font-size="16" font-weight="bold" text-anchor="middle">AI Backend System</text>
+  
+  <!-- AI Agent Component -->
+  <rect x="750" y="110" width="180" height="60" fill="#E1BEE7" rx="5"/>
+  <text x="840" y="130" font-size="14" font-weight="bold" text-anchor="middle">AI Agent Service</text>
+  <text x="840" y="150" font-size="11" text-anchor="middle">• Process Questions</text>
+  <text x="840" y="165" font-size="11" text-anchor="middle">• Knowledge Lookup</text>
+  
+  <!-- Knowledge Base Component -->
+  <rect x="750" y="180" width="180" height="60" fill="#E1BEE7" rx="5"/>
+  <text x="840" y="200" font-size="14" font-weight="bold" text-anchor="middle">Knowledge Base</text>
+  <text x="840" y="220" font-size="11" text-anchor="middle">• Learned Answers</text>
+  <text x="840" y="235" font-size="11" text-anchor="middle">• Business Info</text>
+  
+  <!-- Help Request System -->
+  <rect x="750" y="250" width="180" height="70" fill="#E1BEE7" rx="5"/>
+  <text x="840" y="270" font-size="14" font-weight="bold" text-anchor="middle">Help Request System</text>
+  <text x="840" y="290" font-size="11" text-anchor="middle">• Create Help Requests</text>
+  <text x="840" y="305" font-size="11" text-anchor="middle">• Timeout Management</text>
+  
+  <!-- Databases -->
+  <rect x="730" y="380" width="220" height="120" fill="#E0F2F1" stroke="#00695C" stroke-width="2" rx="10"/>
+  <text x="840" y="410" font-size="16" font-weight="bold" text-anchor="middle">DynamoDB Tables</text>
+  <text x="840" y="435" font-size="12" text-anchor="middle">• CallRecords</text>
+  <text x="840" y="455" font-size="12" text-anchor="middle">• HelpRequests</text>
+  <text x="840" y="475" font-size="12" text-anchor="middle">• KnowledgeBase</text>
+  
+  <!-- Supervisor Interface -->
+  <rect x="1000" y="120" width="180" height="160" fill="#FFEBEE" stroke="#C62828" stroke-width="2" rx="10"/>
+  <text x="1090" y="150" font-size="16" font-weight="bold" text-anchor="middle">Supervisor</text>
+  <rect x="1020" y="170" width="140" height="40" fill="#FFCDD2" rx="5"/>
+  <text x="1090" y="195" font-size="12" text-anchor="middle">Web Dashboard</text>
+  <text x="1090" y="230" font-size="11" text-anchor="middle">• View Requests</text>
+  <text x="1090" y="250" font-size="11" text-anchor="middle">• Provide Answers</text>
+  <text x="1090" y="270" font-size="11" text-anchor="middle">• Monitor System</text>
+  
+  <!-- Notification System -->
+  <rect x="480" y="280" width="180" height="100" fill="#E8EAF6" stroke="#283593" stroke-width="2" rx="10"/>
+  <text x="570" y="310" font-size="14" font-weight="bold" text-anchor="middle">Notification System</text>
+  <text x="570" y="335" font-size="11" text-anchor="middle">• SMS (Twilio)</text>
+  <text x="570" y="355" font-size="11" text-anchor="middle">• Dashboard Alerts</text>
+  <text x="570" y="375" font-size="11" text-anchor="middle">• Customer Updates</text>
+  
+  <!-- Customer Response -->
+  <rect x="250" y="280" width="180" height="100" fill="#E0F7FA" stroke="#00838F" stroke-width="2" rx="10"/>
+  <text x="340" y="310" font-size="14" font-weight="bold" text-anchor="middle">Customer Response</text>
+  <text x="340" y="335" font-size="11" text-anchor="middle">• SMS Message</text>
+  <text x="340" y="355" font-size="11" text-anchor="middle">• Return Call</text>
+  
+  <!-- Flow Arrows with Labels (Smaller) -->
+  <!-- Customer to LiveKit -->
+  <path d="M200 120 L250 120" stroke="#1976D2" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+  <text x="225" y="110" font-size="10" text-anchor="middle">Phone Call</text>
+  
+  <!-- LiveKit to AI Agent -->
+  <path d="M430 120 L480 120" stroke="#2E7D32" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+  <text x="455" y="110" font-size="10" text-anchor="middle">Audio Stream</text>
+  
+  <!-- AI Agent to Backend -->
+  <path d="M680 140 L730 140" stroke="#F57C00" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+  <text x="705" y="130" font-size="10" text-anchor="middle">Question</text>
+  
+  <!-- Backend to AI Agent -->
+  <path d="M730 160 L680 160" stroke="#7B1FA2" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+  <text x="705" y="175" font-size="10" text-anchor="middle">Answer</text>
+  
+  <!-- Backend to Help Request -->
+  <path d="M840 240 L840 250" stroke="#7B1FA2" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+  <text x="870" y="245" font-size="10" text-anchor="start">Unknown</text>
+  
+  <!-- Help Request to Notification -->
+  <path d="M750 285 L660 330" stroke="#7B1FA2" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+  <text x="700" y="300" font-size="10" text-anchor="middle">Alert</text>
+  
+  <!-- Notification to Supervisor -->
+  <path d="M660 330 L1000 200" stroke="#283593" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+  <text x="830" y="240" font-size="10" text-anchor="middle">SMS/Dashboard</text>
+  
+  <!-- Supervisor to Backend -->
+  <path d="M1000 240 L950 285" stroke="#C62828" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+  <text x="975" y="260" font-size="10" text-anchor="middle">Answer</text>
+  
+  <!-- Backend to Database -->
+  <path d="M840 320 L840 380" stroke="#7B1FA2" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+  <text x="860" y="350" font-size="10" text-anchor="start">Store</text>
+  
+  <!-- Notification to Customer -->
+  <path d="M480 330 L430 330" stroke="#283593" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+  <text x="455" y="320" font-size="10" text-anchor="middle">SMS</text>
+  
+  <!-- Database to Backend -->
+  <path d="M800 380 L800 320" stroke="#00695C" stroke-width="2" marker-end="url(#arrowhead-small)"/>
+  <text x="780" y="350" font-size="10" text-anchor="end">Query</text>
+  
+  <!-- Key Features Box -->
+  <rect x="20" y="420" width="400" height="150" fill="#F5F5F5" stroke="#616161" stroke-width="2" rx="10"/>
+  <text x="30" y="445" font-size="16" font-weight="bold">Key System Features:</text>
+  <text x="30" y="470" font-size="12">• Real-time voice processing with LiveKit SIP</text>
+  <text x="30" y="490" font-size="12">• AI agent with knowledge base learning</text>
+  <text x="30" y="510" font-size="12">• Human-in-the-loop escalation system</text>
+  <text x="30" y="530" font-size="12">• Automatic customer updates via SMS</text>
+  <text x="30" y="550" font-size="12">• Persistent knowledge storage</text>
+  
+  <!-- Technology Stack Box -->
+  <rect x="450" y="420" width="280" height="150" fill="#F5F5F5" stroke="#616161" stroke-width="2" rx="10"/>
+  <text x="460" y="445" font-size="16" font-weight="bold">Technology Stack:</text>
+  <text x="460" y="470" font-size="12">• Backend: FastAPI (Python)</text>
+  <text x="460" y="490" font-size="12">• Frontend: Next.js 15 (React)</text>
+  <text x="460" y="510" font-size="12">• Database: AWS DynamoDB</text>
+  <text x="460" y="530" font-size="12">• Voice: LiveKit, Deepgram, ElevenLabs</text>
+  <text x="460" y="550" font-size="12">• Notifications: Twilio SMS</text>
+  
+  <!-- Data Flow Box -->
+  <rect x="750" y="530" width="430" height="120" fill="#F5F5F5" stroke="#616161" stroke-width="2" rx="10"/>
+  <text x="760" y="555" font-size="16" font-weight="bold">Data Flow Process:</text>
+  <text x="760" y="580" font-size="12">1. Customer calls → LiveKit converts to WebRTC</text>
+  <text x="760" y="600" font-size="12">2. AI agent processes speech → Checks knowledge base</text>
+  <text x="760" y="620" font-size="12">3. Unknown questions → Create help request → Notify supervisor</text>
+  <text x="760" y="640" font-size="12">4. Supervisor answers → Update knowledge → Notify customer</text>
+  
+  <!-- Smaller arrow marker definition -->
+  <defs>
+    <marker id="arrowhead-small" markerWidth="8" markerHeight="6" refX="8" refY="3" orient="auto">
+      <polygon points="0 0, 8 3, 0 6" fill="#333"/>
+    </marker>
+  </defs>
+</svg>

@@ -1,0 +1,43 @@
+Metadata-Version: 2.4
+Name: livekit-plugins-openai
+Version: 1.0.20
+Summary: Agent Framework plugin for services from OpenAI
+Project-URL: Documentation, https://docs.livekit.io
+Project-URL: Website, https://livekit.io/
+Project-URL: Source, https://github.com/livekit/agents
+Author-email: LiveKit <hello@livekit.io>
+License-Expression: Apache-2.0
+Keywords: audio,livekit,realtime,video,webrtc
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.9.0
+Requires-Dist: livekit-agents[codecs,images]>=1.0.20
+Requires-Dist: openai[realtime]>=1.68.2
+Provides-Extra: vertex
+Requires-Dist: google-auth>=2.0.0; extra == 'vertex'
+Description-Content-Type: text/markdown
+
+# OpenAI plugin for LiveKit Agents
+
+Support for OpenAI Realtime API, LLM, TTS, and STT APIs.
+
+Also includes supoort for a large number of OpenAI-compatible APIs including [Azure OpenAI](https://docs.livekit.io/agents/integrations/llm/azure-openai/), [Cerebras](https://docs.livekit.io/agents/integrations/cerebras/), [Fireworks](https://docs.livekit.io/agents/integrations/llm/fireworks/), [Perplexity](https://docs.livekit.io/agents/integrations/llm/perplexity/), [Telnyx](https://docs.livekit.io/agents/integrations/llm/telnyx/), [xAI](https://docs.livekit.io/agents/integrations/llm/xai/), [Ollama](https://docs.livekit.io/agents/integrations/llm/ollama/), and [DeepSeek](https://docs.livekit.io/agents/integrations/llm/deepseek/).
+
+See [https://docs.livekit.io/agents/integrations/openai/](https://docs.livekit.io/agents/integrations/openai/) for more information.
+
+## Installation
+
+```bash
+pip install livekit-plugins-openai
+```
+
+## Pre-requisites
+
+You'll need an API key from OpenAI. It can be set as an environment variable: `OPENAI_API_KEY`

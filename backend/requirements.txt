@@ -1,0 +1,50 @@
+# Core dependencies
+fastapi==0.104.1
+uvicorn[standard]==0.24.0
+pydantic==2.5.2
+python-dotenv==1.0.0
+aiofiles==23.2.1
+httpx==0.25.2  # Required for LiveKit API client
+
+# LiveKit dependencies
+livekit==0.18.1
+livekit-agents==1.0.20
+livekit-plugins-deepgram==1.0.20
+livekit-plugins-groq==1.0.20
+livekit-plugins-neuphonic==1.0.20
+livekit-plugins-silero==1.0.20
+
+
+websockets==12.0
+
+# AWS dependencies
+boto3==1.33.6
+aioboto3==12.1.0
+
+# Audio processing
+numpy==1.26.2
+pyaudio==0.2.14  # For audio capture/processing if needed
+
+# Notification services (optional)
+twilio==8.10.0  # For SMS notifications
+
+# Speech services dependencies
+aiohttp==3.9.1
+websockets==12.0
+
+# Optional speech providers (uncomment as needed)
+# deepgram-sdk==3.0.0  # For Deepgram Python SDK (optional)
+# elevenlabs==0.2.26   # For ElevenLabs Python SDK (optional)
+
+# Logging and monitoring
+structlog==23.2.0
+
+# Testing
+pytest==7.4.3
+pytest-asyncio==0.21.1
+
+# Development
+black==23.11.0
+isort==5.12.0
+flake8==6.1.0
+mypy==1.7.1

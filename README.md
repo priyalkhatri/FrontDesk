@@ -1,0 +1,1 @@
+![Alt text](./frontdesk-ai-flow-diagram.svg)

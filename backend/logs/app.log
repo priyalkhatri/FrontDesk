@@ -1,0 +1,1602 @@
+2025-05-10 12:24:43 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 12:24:43 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 12:24:47 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 12:24:47 [INFO] app.app.main:99 - startup_event: Starting up application...
+2025-05-10 12:24:47 [INFO] app.app.main:107 - startup_event: Initializing database tables...
+2025-05-10 12:25:53 [ERROR] app.app.models.help_request:131 - init_table: Error initializing DynamoDB table: Could not connect to the endpoint URL: "http://localhost:8000/"
+2025-05-10 12:27:00 [ERROR] app.app.models.knowledge_base:107 - init_table: Error initializing DynamoDB table: Could not connect to the endpoint URL: "http://localhost:8000/"
+2025-05-10 12:28:06 [ERROR] app.app.models.call_record:130 - init_table: Error initializing DynamoDB table: Could not connect to the endpoint URL: "http://localhost:8000/"
+2025-05-10 12:28:06 [INFO] app.app.main:113 - startup_event: Initializing AI agent...
+2025-05-10 12:28:06 [ERROR] app.config.livekit_config:81 - validate: Invalid LiveKit URL format!
+2025-05-10 12:28:06 [ERROR] app.config.livekit_config:82 - validate: The URL should not include protocol (https://) or trailing slash
+2025-05-10 12:28:06 [ERROR] app.app.integrations.livekit_sip:62 - initialize: Invalid LiveKit configuration, SIP integration disabled
+2025-05-10 12:28:06 [WARNING] app.app.main:119 - startup_event: AI agent initialization failed or LiveKit SIP is disabled
+2025-05-10 12:28:06 [INFO] app.app.main:124 - startup_event: Application startup complete
+2025-05-10 12:28:06 [ERROR] app.app.models.help_request:234 - get_by_status: Error getting help requests by status: 'NoneType' object has no attribute 'query'
+2025-05-10 12:29:06 [ERROR] app.app.models.help_request:234 - get_by_status: Error getting help requests by status: 'NoneType' object has no attribute 'query'
+2025-05-10 12:30:06 [ERROR] app.app.models.help_request:234 - get_by_status: Error getting help requests by status: 'NoneType' object has no attribute 'query'
+2025-05-10 12:30:34 [INFO] app.app.main:135 - shutdown_event: Shutting down application...
+2025-05-10 12:30:34 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 12:30:34 [INFO] app.app.integrations.livekit_sip:409 - cleanup: Cleaning up LiveKit SIP integration
+2025-05-10 12:30:34 [INFO] app.app.main:141 - shutdown_event: Application shutdown complete
+2025-05-10 12:30:41 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 12:30:41 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 12:30:41 [INFO] app.__main__:54 - run_demo: Running system demonstration...
+2025-05-10 12:30:41 [ERROR] app.config.livekit_config:81 - validate: Invalid LiveKit URL format!
+2025-05-10 12:30:41 [ERROR] app.config.livekit_config:82 - validate: The URL should not include protocol (https://) or trailing slash
+2025-05-10 12:30:41 [ERROR] app.app.integrations.livekit_sip:62 - initialize: Invalid LiveKit configuration, SIP integration disabled
+2025-05-10 12:31:48 [ERROR] app.app.models.help_request:131 - init_table: Error initializing DynamoDB table: Could not connect to the endpoint URL: "http://localhost:8000/"
+2025-05-10 12:32:54 [ERROR] app.app.models.knowledge_base:107 - init_table: Error initializing DynamoDB table: Could not connect to the endpoint URL: "http://localhost:8000/"
+2025-05-10 12:34:01 [ERROR] app.app.models.call_record:130 - init_table: Error initializing DynamoDB table: Could not connect to the endpoint URL: "http://localhost:8000/"
+2025-05-10 12:34:01 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_1746860641 from +15551234567
+2025-05-10 12:34:01 [ERROR] app.app.models.call_record:169 - save: Error saving call record: 'NoneType' object has no attribute 'put_item'
+2025-05-10 12:34:01 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_1746860641 not found
+2025-05-10 12:34:01 [ERROR] app.app.models.call_record:237 - add_transcript_entry: Error adding transcript entry: 'NoneType' object has no attribute 'update_item'
+2025-05-10 12:34:01 [ERROR] app.app.models.call_record:199 - get_by_id: Error getting call record by ID: 'NoneType' object has no attribute 'get_item'
+2025-05-10 12:34:01 [ERROR] app.app.services.ai_agent:159 - process_call_question: Call demo_call_1746860641 not found
+2025-05-10 12:37:18 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 12:37:18 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 12:37:18 [INFO] app.__main__:54 - run_demo: Running system demonstration...
+2025-05-10 12:37:18 [ERROR] app.config.livekit_config:81 - validate: Invalid LiveKit URL format!
+2025-05-10 12:37:18 [ERROR] app.config.livekit_config:82 - validate: The URL should not include protocol (https://) or trailing slash
+2025-05-10 12:37:18 [ERROR] app.app.integrations.livekit_sip:62 - initialize: Invalid LiveKit configuration, SIP integration disabled
+2025-05-10 12:38:24 [ERROR] app.app.models.help_request:131 - init_table: Error initializing DynamoDB table: Could not connect to the endpoint URL: "http://localhost:8000/"
+2025-05-10 12:39:31 [ERROR] app.app.models.knowledge_base:107 - init_table: Error initializing DynamoDB table: Could not connect to the endpoint URL: "http://localhost:8000/"
+2025-05-10 12:41:20 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 12:41:20 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 12:41:20 [INFO] app.__main__:54 - run_demo: Running system demonstration...
+2025-05-10 12:41:20 [INFO] app.app.integrations.livekit_sip:66 - initialize: Initializing LiveKit SIP integration...
+2025-05-10 12:41:20 [INFO] app.app.integrations.livekit_sip:105 - create_sip_trunk: Creating new SIP trunk in LiveKit
+2025-05-10 12:41:20 [INFO] app.config.livekit_config:63 - save_sip_trunk_config: Saved SIP trunk config with ID: st_1746861080
+2025-05-10 12:41:20 [INFO] app.app.integrations.livekit_sip:127 - create_sip_trunk: SIP trunk created with ID: st_1746861080
+2025-05-10 12:41:20 [INFO] app.app.integrations.livekit_sip:139 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 12:41:20 [ERROR] app.app.integrations.livekit_sip:90 - initialize: Failed to initialize LiveKit SIP integration: 'AccessToken' object has no attribute 'add_grant'
+2025-05-10 12:41:22 [INFO] app.app.models.help_request:126 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 12:41:24 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 12:41:24 [INFO] app.app.models.call_record:88 - init_table: Creating DynamoDB table: CallRecords
+2025-05-10 12:41:24 [ERROR] app.app.models.call_record:130 - init_table: Error initializing DynamoDB table: An error occurred (AccessDeniedException) when calling the CreateTable operation: User: arn:aws:iam::010526265976:user/pk is not authorized to perform: dynamodb:CreateTable on resource: arn:aws:dynamodb:ap-south-1:010526265976:table/CallRecords because no identity-based policy allows the dynamodb:CreateTable action
+2025-05-10 12:41:24 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_1746861084 from +15551234567
+2025-05-10 12:41:24 [ERROR] app.app.models.call_record:169 - save: Error saving call record: 'NoneType' object has no attribute 'put_item'
+2025-05-10 12:41:24 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_1746861084 not found
+2025-05-10 12:41:24 [ERROR] app.app.models.call_record:237 - add_transcript_entry: Error adding transcript entry: 'NoneType' object has no attribute 'update_item'
+2025-05-10 12:41:24 [ERROR] app.app.models.call_record:199 - get_by_id: Error getting call record by ID: 'NoneType' object has no attribute 'get_item'
+2025-05-10 12:41:24 [ERROR] app.app.services.ai_agent:159 - process_call_question: Call demo_call_1746861084 not found
+2025-05-10 12:54:09 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 12:54:09 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 12:54:09 [INFO] app.__main__:54 - run_demo: Running system demonstration...
+2025-05-10 12:54:09 [INFO] app.app.integrations.livekit_sip:66 - initialize: Initializing LiveKit SIP integration...
+2025-05-10 12:54:09 [INFO] app.app.integrations.livekit_sip:102 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 12:54:09 [INFO] app.app.integrations.livekit_sip:139 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 12:54:09 [ERROR] app.app.integrations.livekit_sip:90 - initialize: Failed to initialize LiveKit SIP integration: 'AccessToken' object has no attribute 'add_grant'
+2025-05-10 12:54:09 [INFO] app.app.models.help_request:126 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 12:54:10 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 12:54:10 [INFO] app.app.models.call_record:88 - init_table: Creating DynamoDB table: CallRecords
+2025-05-10 12:54:10 [ERROR] app.app.models.call_record:130 - init_table: Error initializing DynamoDB table: Waiter TableExists failed: An error occurred (AccessDeniedException): User: arn:aws:iam::010526265976:user/pk is not authorized to perform: dynamodb:DescribeTable on resource: arn:aws:dynamodb:ap-south-1:010526265976:table/CallRecords because no identity-based policy allows the dynamodb:DescribeTable action
+2025-05-10 12:54:10 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_1746861850 from +15551234567
+2025-05-10 12:54:11 [ERROR] app.app.models.call_record:169 - save: Error saving call record: An error occurred (ResourceNotFoundException) when calling the PutItem operation: Requested resource not found
+2025-05-10 12:54:11 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_1746861850 not found
+2025-05-10 12:54:11 [ERROR] app.app.models.call_record:237 - add_transcript_entry: Error adding transcript entry: An error occurred (ResourceNotFoundException) when calling the UpdateItem operation: Requested resource not found
+2025-05-10 12:54:11 [ERROR] app.app.models.call_record:199 - get_by_id: Error getting call record by ID: An error occurred (ResourceNotFoundException) when calling the GetItem operation: Requested resource not found
+2025-05-10 12:54:11 [ERROR] app.app.services.ai_agent:159 - process_call_question: Call demo_call_1746861850 not found
+2025-05-10 13:07:08 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:07:08 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:07:08 [INFO] app.__main__:54 - run_demo: Running system demonstration...
+2025-05-10 13:07:08 [INFO] app.app.integrations.livekit_sip:66 - initialize: Initializing LiveKit SIP integration...
+2025-05-10 13:07:08 [INFO] app.app.integrations.livekit_sip:102 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 13:07:08 [INFO] app.app.integrations.livekit_sip:139 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 13:07:08 [ERROR] app.app.integrations.livekit_sip:90 - initialize: Failed to initialize LiveKit SIP integration: 'AccessToken' object has no attribute 'add_grant'
+2025-05-10 13:07:08 [INFO] app.app.models.help_request:126 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 13:07:09 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 13:07:09 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 13:07:09 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_1746862629 from +15551234567
+2025-05-10 13:07:09 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746862629
+2025-05-10 13:07:09 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_1746862629 not found
+2025-05-10 13:07:10 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: What are your hours?
+2025-05-10 13:07:10 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_1746862629 not found
+2025-05-10 13:07:11 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:07:11 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_1746862629 not found
+2025-05-10 13:07:11 [ERROR] app.app.models.help_request:234 - get_by_status: Error getting help requests by status: An error occurred (ValidationException) when calling the Query operation: The table does not have the specified index: StatusIndex
+2025-05-10 13:07:11 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_2_1746862631 from +15559876543
+2025-05-10 13:07:11 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746862631
+2025-05-10 13:07:11 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_2_1746862631 not found
+2025-05-10 13:07:11 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:07:11 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_2_1746862631 not found
+2025-05-10 13:07:12 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_1746862629 ended, duration: 60000ms
+2025-05-10 13:07:12 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746862629
+2025-05-10 13:07:12 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_2_1746862631 ended, duration: 30000ms
+2025-05-10 13:07:12 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746862631
+2025-05-10 13:07:12 [ERROR] app.app.models.help_request:234 - get_by_status: Error getting help requests by status: An error occurred (ValidationException) when calling the Query operation: The table does not have the specified index: StatusIndex
+2025-05-10 13:12:27 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:12:27 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:12:27 [INFO] app.__main__:54 - run_demo: Running system demonstration...
+2025-05-10 13:12:27 [INFO] app.app.integrations.livekit_sip:66 - initialize: Initializing LiveKit SIP integration...
+2025-05-10 13:12:27 [INFO] app.app.integrations.livekit_sip:102 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 13:12:27 [INFO] app.app.integrations.livekit_sip:139 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 13:12:27 [ERROR] app.app.integrations.livekit_sip:90 - initialize: Failed to initialize LiveKit SIP integration: 'AccessToken' object has no attribute 'add_grant'
+2025-05-10 13:12:27 [WARNING] app.app.models.help_request:136 - init_table: StatusIndex GSI not found, creating it...
+2025-05-10 13:12:27 [ERROR] app.app.models.help_request:169 - init_table: Error initializing DynamoDB table: Parameter validation failed:
+Unknown parameter in input: "GlobalSecondaryIndexes", must be one of: AttributeDefinitions, TableName, BillingMode, ProvisionedThroughput, GlobalSecondaryIndexUpdates, StreamSpecification, SSESpecification, ReplicaUpdates, TableClass, DeletionProtectionEnabled, MultiRegionConsistency, OnDemandThroughput, WarmThroughput
+2025-05-10 13:12:28 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 13:12:28 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 13:12:28 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_1746862948 from +15551234567
+2025-05-10 13:12:28 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746862948
+2025-05-10 13:12:28 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_1746862948 not found
+2025-05-10 13:12:29 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: What are your hours?
+2025-05-10 13:12:29 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_1746862948 not found
+2025-05-10 13:12:30 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:12:30 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_1746862948 not found
+2025-05-10 13:12:30 [ERROR] app.app.models.help_request:277 - get_by_status: DynamoDB error: ValidationException - The table does not have the specified index: StatusIndex
+2025-05-10 13:12:30 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_2_1746862950 from +15559876543
+2025-05-10 13:12:30 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746862950
+2025-05-10 13:12:30 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_2_1746862950 not found
+2025-05-10 13:12:30 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:12:30 [ERROR] app.app.integrations.livekit_sip:308 - send_audio_response: Cannot send response: Call demo_call_2_1746862950 not found
+2025-05-10 13:12:30 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_1746862948 ended, duration: 60000ms
+2025-05-10 13:12:31 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746862948
+2025-05-10 13:12:31 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_2_1746862950 ended, duration: 30000ms
+2025-05-10 13:12:31 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746862950
+2025-05-10 13:12:31 [ERROR] app.app.models.help_request:277 - get_by_status: DynamoDB error: ValidationException - The table does not have the specified index: StatusIndex
+2025-05-10 13:15:04 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:15:04 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:15:04 [INFO] app.__main__:54 - run_demo: Running system demonstration...
+2025-05-10 13:15:04 [INFO] app.app.integrations.livekit_sip:66 - initialize: Initializing LiveKit SIP integration...
+2025-05-10 13:15:04 [INFO] app.app.integrations.livekit_sip:102 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 13:15:04 [INFO] app.app.integrations.livekit_sip:139 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 13:15:04 [ERROR] app.app.integrations.livekit_sip:172 - setup_websocket_listener: Error setting up WebSocket listener: identity and room must be set when joining a room
+2025-05-10 13:15:04 [ERROR] app.app.integrations.livekit_sip:90 - initialize: Failed to initialize LiveKit SIP integration: identity and room must be set when joining a room
+2025-05-10 13:15:04 [WARNING] app.app.models.help_request:136 - init_table: StatusIndex GSI not found, creating it...
+2025-05-10 13:15:15 [INFO] app.app.models.help_request:168 - init_table: StatusIndex GSI created successfully
+2025-05-10 13:15:15 [INFO] app.app.models.help_request:175 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 13:15:16 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 13:15:20 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 13:15:20 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_1746863120 from +15551234567
+2025-05-10 13:15:20 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746863120
+2025-05-10 13:15:20 [ERROR] app.app.integrations.livekit_sip:327 - send_audio_response: Cannot send response: Call demo_call_1746863120 not found
+2025-05-10 13:15:20 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: What are your hours?
+2025-05-10 13:15:20 [ERROR] app.app.integrations.livekit_sip:327 - send_audio_response: Cannot send response: Call demo_call_1746863120 not found
+2025-05-10 13:15:22 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:15:22 [ERROR] app.app.integrations.livekit_sip:327 - send_audio_response: Cannot send response: Call demo_call_1746863120 not found
+2025-05-10 13:15:22 [ERROR] app.app.models.help_request:288 - get_by_status: DynamoDB error: ValidationException - Cannot read from backfilling global secondary index: StatusIndex
+2025-05-10 13:15:22 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_2_1746863122 from +15559876543
+2025-05-10 13:15:22 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746863122
+2025-05-10 13:15:22 [ERROR] app.app.integrations.livekit_sip:327 - send_audio_response: Cannot send response: Call demo_call_2_1746863122 not found
+2025-05-10 13:15:22 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:15:22 [ERROR] app.app.integrations.livekit_sip:327 - send_audio_response: Cannot send response: Call demo_call_2_1746863122 not found
+2025-05-10 13:15:22 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_1746863120 ended, duration: 60000ms
+2025-05-10 13:15:22 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746863120
+2025-05-10 13:15:22 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_2_1746863122 ended, duration: 30000ms
+2025-05-10 13:15:22 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746863122
+2025-05-10 13:15:22 [ERROR] app.app.models.help_request:288 - get_by_status: DynamoDB error: ValidationException - Cannot read from backfilling global secondary index: StatusIndex
+2025-05-10 13:25:06 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:25:06 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:25:06 [INFO] app.__main__:54 - run_demo: Running system demonstration...
+2025-05-10 13:25:06 [INFO] app.app.integrations.livekit_sip:66 - initialize: Initializing LiveKit SIP integration...
+2025-05-10 13:25:06 [INFO] app.app.integrations.livekit_sip:102 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 13:25:06 [INFO] app.app.integrations.livekit_sip:139 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 13:25:06 [ERROR] app.app.integrations.livekit_sip:176 - setup_websocket_listener: Error setting up WebSocket listener: identity and room must be set when joining a room
+2025-05-10 13:25:06 [ERROR] app.app.integrations.livekit_sip:90 - initialize: Failed to initialize LiveKit SIP integration: identity and room must be set when joining a room
+2025-05-10 13:25:07 [INFO] app.app.models.help_request:185 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 13:25:07 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 13:25:08 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 13:25:08 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_1746863708 from +15551234567
+2025-05-10 13:25:08 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746863708
+2025-05-10 13:25:08 [ERROR] app.app.integrations.livekit_sip:331 - send_audio_response: Cannot send response: Call demo_call_1746863708 not found
+2025-05-10 13:25:08 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: What are your hours?
+2025-05-10 13:25:08 [ERROR] app.app.integrations.livekit_sip:331 - send_audio_response: Cannot send response: Call demo_call_1746863708 not found
+2025-05-10 13:25:09 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:25:09 [ERROR] app.app.integrations.livekit_sip:331 - send_audio_response: Cannot send response: Call demo_call_1746863708 not found
+2025-05-10 13:25:09 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_2_1746863709 from +15559876543
+2025-05-10 13:25:10 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746863709
+2025-05-10 13:25:10 [ERROR] app.app.integrations.livekit_sip:331 - send_audio_response: Cannot send response: Call demo_call_2_1746863709 not found
+2025-05-10 13:25:10 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:25:10 [ERROR] app.app.integrations.livekit_sip:331 - send_audio_response: Cannot send response: Call demo_call_2_1746863709 not found
+2025-05-10 13:25:10 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_1746863708 ended, duration: 60000ms
+2025-05-10 13:25:10 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746863708
+2025-05-10 13:25:10 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_2_1746863709 ended, duration: 30000ms
+2025-05-10 13:25:10 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746863709
+2025-05-10 13:25:10 [ERROR] app.app.models.help_request:301 - get_by_status: Error getting help requests by status: HelpRequest.__init__() got an unexpected keyword argument 'resolvedAt'
+2025-05-10 13:29:17 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:29:17 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:29:17 [INFO] app.__main__:54 - run_demo: Running system demonstration...
+2025-05-10 13:29:17 [INFO] app.app.integrations.livekit_sip:66 - initialize: Initializing LiveKit SIP integration...
+2025-05-10 13:29:17 [INFO] app.app.integrations.livekit_sip:102 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 13:29:17 [INFO] app.app.integrations.livekit_sip:139 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 13:29:17 [ERROR] app.app.integrations.livekit_sip:190 - setup_websocket_listener: Error setting up WebSocket listener: identity and room must be set when joining a room
+2025-05-10 13:29:17 [ERROR] app.app.integrations.livekit_sip:90 - initialize: Failed to initialize LiveKit SIP integration: identity and room must be set when joining a room
+2025-05-10 13:29:21 [INFO] app.app.models.help_request:196 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 13:29:21 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 13:29:22 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 13:29:22 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_1746863962 from +15551234567
+2025-05-10 13:29:22 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746863962
+2025-05-10 13:29:22 [ERROR] app.app.integrations.livekit_sip:345 - send_audio_response: Cannot send response: Call demo_call_1746863962 not found
+2025-05-10 13:29:22 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: What are your hours?
+2025-05-10 13:29:22 [ERROR] app.app.integrations.livekit_sip:345 - send_audio_response: Cannot send response: Call demo_call_1746863962 not found
+2025-05-10 13:29:23 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:29:23 [ERROR] app.app.integrations.livekit_sip:345 - send_audio_response: Cannot send response: Call demo_call_1746863962 not found
+2025-05-10 13:29:23 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_2_1746863963 from +15559876543
+2025-05-10 13:29:23 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746863963
+2025-05-10 13:29:23 [ERROR] app.app.integrations.livekit_sip:345 - send_audio_response: Cannot send response: Call demo_call_2_1746863963 not found
+2025-05-10 13:29:24 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:29:24 [ERROR] app.app.integrations.livekit_sip:345 - send_audio_response: Cannot send response: Call demo_call_2_1746863963 not found
+2025-05-10 13:29:24 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_1746863962 ended, duration: 60000ms
+2025-05-10 13:29:24 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746863962
+2025-05-10 13:29:24 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_2_1746863963 ended, duration: 30000ms
+2025-05-10 13:29:24 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746863963
+2025-05-10 13:29:24 [ERROR] app.app.models.help_request:314 - get_by_status: Error getting help requests by status: HelpRequest.__init__() got an unexpected keyword argument 'resolvedAt'
+2025-05-10 13:31:41 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:31:41 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 13:31:41 [INFO] app.__main__:54 - run_demo: Running system demonstration...
+2025-05-10 13:31:41 [INFO] app.app.integrations.livekit_sip:66 - initialize: Initializing LiveKit SIP integration...
+2025-05-10 13:31:41 [INFO] app.app.integrations.livekit_sip:102 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 13:31:41 [INFO] app.app.integrations.livekit_sip:139 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 13:31:41 [ERROR] app.app.integrations.livekit_sip:190 - setup_websocket_listener: Error setting up WebSocket listener: identity and room must be set when joining a room
+2025-05-10 13:31:41 [ERROR] app.app.integrations.livekit_sip:90 - initialize: Failed to initialize LiveKit SIP integration: identity and room must be set when joining a room
+2025-05-10 13:31:42 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 13:31:43 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 13:31:43 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 13:31:43 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_1746864103 from +15551234567
+2025-05-10 13:31:43 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746864103
+2025-05-10 13:31:43 [ERROR] app.app.integrations.livekit_sip:345 - send_audio_response: Cannot send response: Call demo_call_1746864103 not found
+2025-05-10 13:31:44 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: What are your hours?
+2025-05-10 13:31:44 [ERROR] app.app.integrations.livekit_sip:345 - send_audio_response: Cannot send response: Call demo_call_1746864103 not found
+2025-05-10 13:31:45 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:31:45 [ERROR] app.app.integrations.livekit_sip:345 - send_audio_response: Cannot send response: Call demo_call_1746864103 not found
+2025-05-10 13:31:45 [INFO] app.app.services.ai_agent:66 - handle_incoming_call: Handling incoming call demo_call_2_1746864105 from +15559876543
+2025-05-10 13:31:45 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746864105
+2025-05-10 13:31:45 [ERROR] app.app.integrations.livekit_sip:345 - send_audio_response: Cannot send response: Call demo_call_2_1746864105 not found
+2025-05-10 13:31:46 [INFO] app.app.services.ai_agent:224 - answer_question: Answered from salon info: Do you offer student discounts?
+2025-05-10 13:31:46 [ERROR] app.app.integrations.livekit_sip:345 - send_audio_response: Cannot send response: Call demo_call_2_1746864105 not found
+2025-05-10 13:31:46 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_1746864103 ended, duration: 60000ms
+2025-05-10 13:31:46 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_1746864103
+2025-05-10 13:31:46 [INFO] app.app.services.ai_agent:105 - handle_call_ended: Call demo_call_2_1746864105 ended, duration: 30000ms
+2025-05-10 13:31:46 [INFO] app.app.models.call_record:164 - save: Saved call record demo_call_2_1746864105
+2025-05-10 13:31:46 [ERROR] app.app.models.help_request:317 - get_by_status: Error getting help requests by status: HelpRequest.__init__() got an unexpected keyword argument 'callerId'
+2025-05-10 16:55:25 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 16:55:25 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 16:55:25 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 16:55:25 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 16:55:25 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 16:55:26 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 16:55:26 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 16:55:28 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 16:55:28 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 16:55:28 [INFO] app.app.integrations.livekit_sip:65 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 16:55:28 [ERROR] app.app.integrations.livekit_sip:97 - initialize: Failed to initialize LiveKit SIP integration: module 'livekit' has no attribute 'room_service'
+2025-05-10 16:55:28 [WARNING] app.app.main:128 - startup_event: AI agent initialization failed or LiveKit SIP is disabled
+2025-05-10 16:55:28 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 17:13:09 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 17:13:09 [ERROR] app.app.main:157 - shutdown_event: Error during shutdown: No module named 'livekit.agents.voice_assistant'
+2025-05-10 17:14:26 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 17:14:26 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 17:14:26 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 17:14:26 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 17:14:26 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 17:14:30 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 17:14:31 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 17:14:31 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 17:14:31 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 17:14:31 [INFO] app.app.integrations.livekit_sip:65 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 17:14:31 [ERROR] app.app.integrations.livekit_sip:97 - initialize: Failed to initialize LiveKit SIP integration: module 'livekit.rtc' has no attribute 'RoomServiceClient'
+2025-05-10 17:14:31 [WARNING] app.app.main:128 - startup_event: AI agent initialization failed or LiveKit SIP is disabled
+2025-05-10 17:14:31 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 17:27:38 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 17:27:38 [ERROR] app.app.main:157 - shutdown_event: Error during shutdown: No module named 'livekit.agents.voice_assistant'
+2025-05-10 17:46:09 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 17:46:09 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 17:46:09 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 17:46:09 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 17:46:09 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 17:46:10 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 17:46:10 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 17:46:10 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 17:46:10 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 17:46:10 [INFO] app.app.integrations.livekit_sip:80 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 17:46:10 [WARNING] app.app.integrations.livekit_sip:84 - initialize: livekit-agents package not found, agent features will be limited
+2025-05-10 17:46:10 [INFO] app.app.integrations.livekit_sip:119 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 17:46:10 [INFO] app.app.integrations.livekit_sip:156 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events (mock mode)
+2025-05-10 17:46:10 [INFO] app.app.integrations.livekit_sip:102 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 17:46:10 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 17:46:10 [ERROR] app.app.main:136 - startup_event: Error during startup: No module named 'livekit.agents'
+2025-05-10 17:46:10 [INFO] app.app.integrations.livekit_sip:170 - _mock_websocket_listener: Mock WebSocket listener started
+2025-05-10 17:52:08 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 17:52:08 [ERROR] app.app.main:157 - shutdown_event: Error during shutdown: No module named 'livekit.agents'
+2025-05-10 17:52:08 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000182B85199D0>
+2025-05-10 17:59:29 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 17:59:29 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 17:59:29 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 17:59:29 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 17:59:29 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 17:59:30 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 17:59:30 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 17:59:31 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 17:59:31 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 17:59:31 [INFO] app.app.integrations.livekit_sip:74 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 17:59:31 [INFO] app.app.integrations.livekit_sip:109 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 17:59:31 [INFO] app.app.integrations.livekit_sip:146 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 17:59:31 [INFO] app.app.integrations.livekit_sip:92 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 17:59:31 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 17:59:31 [ERROR] app.app.main:136 - startup_event: Error during startup: cannot import name 'AssistantOptions' from 'livekit.agents.voice_assistant' (C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\voice_assistant\__init__.py)
+2025-05-10 17:59:31 [INFO] app.app.integrations.livekit_sip:187 - _websocket_listener: Connecting to LiveKit WebSocket: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJpc3MiOiJBUElMSmFUaUxVTEVmOFgiLCJuYmYiOjE3NDY4ODAxNzEsImV4cCI6MTc0NjkwMTc3MX0.pa002vfvohOqm4-2DJAmJ_jxIXyV0v4rw1zzOs5Jjho
+2025-05-10 17:59:31 [ERROR] app.app.integrations.livekit_sip:207 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 17:59:31 [WARNING] app.app.integrations.livekit_sip:208 - _websocket_listener: Falling back to mock WebSocket listener
+2025-05-10 17:59:31 [INFO] app.app.integrations.livekit_sip:225 - _mock_websocket_listener: Mock WebSocket listener started
+2025-05-10 17:59:46 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 17:59:52 [ERROR] app.app.main:174 - server_error_handler: Server error: module 'app.config.settings' has no attribute 'SPEECH_TO_TEXT_ENABLED'
+2025-05-10 17:59:53 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:00:23 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:00:23 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:02:46 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 18:02:46 [ERROR] app.app.main:157 - shutdown_event: Error during shutdown: cannot import name 'AssistantPlayout' from 'livekit.agents.voice_assistant' (C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\voice_assistant\__init__.py)
+2025-05-10 18:02:51 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:02:51 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:02:51 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 18:02:51 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 18:02:51 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 18:02:55 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 18:02:55 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 18:02:56 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 18:02:56 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 18:02:56 [INFO] app.app.integrations.livekit_sip:74 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 18:02:56 [INFO] app.app.integrations.livekit_sip:109 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 18:02:56 [INFO] app.app.integrations.livekit_sip:146 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 18:02:56 [INFO] app.app.integrations.livekit_sip:92 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 18:02:56 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 18:02:56 [ERROR] app.app.main:136 - startup_event: Error during startup: cannot import name 'AssistantPlayout' from 'livekit.agents.voice_assistant' (C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\voice_assistant\__init__.py)
+2025-05-10 18:02:56 [INFO] app.app.integrations.livekit_sip:187 - _websocket_listener: Connecting to LiveKit WebSocket: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJpc3MiOiJBUElMSmFUaUxVTEVmOFgiLCJuYmYiOjE3NDY4ODAzNzYsImV4cCI6MTc0NjkwMTk3Nn0.LQnIxa2Whm2mlYP_k0aWObQCOBlbvQ4qkbX5QpaZ8l0
+2025-05-10 18:02:56 [ERROR] app.app.integrations.livekit_sip:207 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 18:02:56 [WARNING] app.app.integrations.livekit_sip:208 - _websocket_listener: Falling back to mock WebSocket listener
+2025-05-10 18:02:56 [INFO] app.app.integrations.livekit_sip:225 - _mock_websocket_listener: Mock WebSocket listener started
+2025-05-10 18:06:14 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 18:06:14 [ERROR] app.app.main:157 - shutdown_event: Error during shutdown: cannot import name 'AssistantPlayout' from 'livekit.agents.voice_assistant' (C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\voice_assistant\__init__.py)
+2025-05-10 18:06:14 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001C361764DA0>
+2025-05-10 18:17:15 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:17:15 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:17:15 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 18:17:15 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 18:17:15 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 18:17:15 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 18:17:16 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 18:17:16 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 18:17:16 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 18:17:16 [INFO] app.app.integrations.livekit_sip:74 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 18:17:16 [INFO] app.app.integrations.livekit_sip:109 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 18:17:16 [INFO] app.app.integrations.livekit_sip:146 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 18:17:16 [INFO] app.app.integrations.livekit_sip:92 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 18:17:16 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 18:17:16 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 18:17:16 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 18:17:16 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 18:17:16 [INFO] app.app.integrations.livekit_sip:187 - _websocket_listener: Connecting to LiveKit WebSocket: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJpc3MiOiJBUElMSmFUaUxVTEVmOFgiLCJuYmYiOjE3NDY4ODEyMzYsImV4cCI6MTc0NjkwMjgzNn0.KUPVD_BR5tFUFpcjg3kBHsYa-Gx0vFPdY2fj_JQV07c
+2025-05-10 18:17:20 [ERROR] app.app.integrations.livekit_sip:207 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 18:17:20 [WARNING] app.app.integrations.livekit_sip:208 - _websocket_listener: Falling back to mock WebSocket listener
+2025-05-10 18:17:20 [INFO] app.app.integrations.livekit_sip:225 - _mock_websocket_listener: Mock WebSocket listener started
+2025-05-10 18:18:30 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:18:30 [INFO] app.__main__:27 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-10 18:18:30 [INFO] app.__main__:28 - <module>: LiveKit URL: telephony-hqt84wbi.livekit.cloud
+2025-05-10 18:19:11 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:19:11 [INFO] app.__main__:27 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-10 18:19:11 [INFO] app.__main__:28 - <module>: LiveKit URL: telephony-hqt84wbi.livekit.cloud
+2025-05-10 18:19:11 [INFO] app.__main__:29 - <module>: Business Name: Elegant Touch Salon
+2025-05-10 18:19:53 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:19:53 [INFO] app.__main__:27 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-10 18:19:53 [INFO] app.__main__:28 - <module>: LiveKit URL: telephony-hqt84wbi.livekit.cloud
+2025-05-10 18:19:53 [INFO] app.__main__:29 - <module>: Business Name: Elegant Touch Salon
+2025-05-10 18:19:53 [INFO] app.__main__:30 - <module>: STT Provider: deepgram  # Options: deepgram, assemblyai, google
+2025-05-10 18:19:53 [INFO] app.__main__:31 - <module>: TTS Provider: neuphonic  # Options: neuphonic, elevenlabs, google
+2025-05-10 18:20:32 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:20:32 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:20:36 [ERROR] app.app.main:174 - server_error_handler: Server error: module 'app.config.settings' has no attribute 'SPEECH_TO_TEXT_ENABLED'
+2025-05-10 18:20:37 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:21:24 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 18:21:24 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 18:21:24 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 18:21:24 [INFO] app.app.integrations.livekit_sip:444 - cleanup: Cleaning up LiveKit SIP integration
+2025-05-10 18:21:24 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 18:21:29 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:21:29 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:21:29 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 18:21:29 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 18:21:29 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 18:21:29 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 18:21:30 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 18:21:30 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 18:21:30 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 18:21:30 [INFO] app.app.integrations.livekit_sip:74 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 18:21:30 [INFO] app.app.integrations.livekit_sip:109 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 18:21:30 [INFO] app.app.integrations.livekit_sip:146 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 18:21:30 [INFO] app.app.integrations.livekit_sip:92 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 18:21:30 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 18:21:30 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 18:21:30 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 18:21:30 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 18:21:30 [INFO] app.app.integrations.livekit_sip:187 - _websocket_listener: Connecting to LiveKit WebSocket: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJpc3MiOiJBUElMSmFUaUxVTEVmOFgiLCJuYmYiOjE3NDY4ODE0OTAsImV4cCI6MTc0NjkwMzA5MH0.vHK1R78BoqTZ_xCPrrb6v0ZQHzm-D3f6xoG2qB_ODr0
+2025-05-10 18:21:33 [ERROR] app.app.integrations.livekit_sip:207 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 18:21:33 [WARNING] app.app.integrations.livekit_sip:208 - _websocket_listener: Falling back to mock WebSocket listener
+2025-05-10 18:21:33 [INFO] app.app.integrations.livekit_sip:225 - _mock_websocket_listener: Mock WebSocket listener started
+2025-05-10 18:21:49 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:21:49 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:21:56 [ERROR] app.app.main:174 - server_error_handler: Server error: module 'app.config.settings' has no attribute 'SPEECH_TO_TEXT_ENABLED'
+2025-05-10 18:21:57 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:46:10 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 18:46:10 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 18:46:10 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 18:46:10 [INFO] app.app.integrations.livekit_sip:444 - cleanup: Cleaning up LiveKit SIP integration
+2025-05-10 18:46:10 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 18:46:15 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:46:15 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:46:15 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 18:46:15 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 18:46:15 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 18:46:16 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 18:46:16 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 18:46:17 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 18:46:17 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 18:46:17 [INFO] app.app.integrations.livekit_sip:74 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 18:46:17 [INFO] app.app.integrations.livekit_sip:109 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 18:46:17 [INFO] app.app.integrations.livekit_sip:146 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 18:46:17 [INFO] app.app.integrations.livekit_sip:92 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 18:46:17 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 18:46:17 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 18:46:17 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 18:46:17 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 18:46:17 [INFO] app.app.integrations.livekit_sip:187 - _websocket_listener: Connecting to LiveKit WebSocket: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJpc3MiOiJBUElMSmFUaUxVTEVmOFgiLCJuYmYiOjE3NDY4ODI5NzcsImV4cCI6MTc0NjkwNDU3N30.iEy-_nYw7mZ2dFAFVAOoKV2gKve-VyKPqYi7o_XYJhE
+2025-05-10 18:46:17 [ERROR] app.app.integrations.livekit_sip:207 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 18:46:17 [WARNING] app.app.integrations.livekit_sip:208 - _websocket_listener: Falling back to mock WebSocket listener
+2025-05-10 18:46:17 [INFO] app.app.integrations.livekit_sip:225 - _mock_websocket_listener: Mock WebSocket listener started
+2025-05-10 18:46:26 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:46:26 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:53:31 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 18:53:31 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 18:53:31 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 18:53:31 [INFO] app.app.integrations.livekit_sip:444 - cleanup: Cleaning up LiveKit SIP integration
+2025-05-10 18:53:31 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 18:53:31 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000018E1E705130>
+2025-05-10 18:56:56 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:56:56 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 18:56:56 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 18:56:56 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 18:56:56 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 18:56:57 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 18:56:58 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 18:56:58 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 18:56:58 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 18:56:58 [INFO] app.app.integrations.livekit_sip:74 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 18:56:58 [INFO] app.app.integrations.livekit_sip:109 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 18:56:58 [INFO] app.app.integrations.livekit_sip:146 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 18:56:58 [INFO] app.app.integrations.livekit_sip:92 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 18:56:58 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 18:56:58 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 18:56:58 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 18:56:58 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 18:56:58 [INFO] app.app.integrations.livekit_sip:187 - _websocket_listener: Connecting to LiveKit WebSocket: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJpc3MiOiJBUElMSmFUaUxVTEVmOFgiLCJuYmYiOjE3NDY4ODM2MTgsImV4cCI6MTc0NjkwNTIxOH0.YKJOTl5znCOzNw4ifa7swP07d2MhwNkHN0WKiZBC0lw
+2025-05-10 18:56:59 [ERROR] app.app.integrations.livekit_sip:207 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 18:56:59 [WARNING] app.app.integrations.livekit_sip:208 - _websocket_listener: Falling back to mock WebSocket listener
+2025-05-10 18:56:59 [INFO] app.app.integrations.livekit_sip:225 - _mock_websocket_listener: Mock WebSocket listener started
+2025-05-10 18:57:11 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:57:25 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:57:25 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:57:28 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 18:57:28 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:02:46 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 19:02:46 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 19:02:46 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 19:02:46 [INFO] app.app.integrations.livekit_sip:444 - cleanup: Cleaning up LiveKit SIP integration
+2025-05-10 19:02:46 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 19:09:56 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:09:56 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:09:56 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 19:09:56 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 19:09:56 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 19:09:57 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 19:09:57 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 19:09:57 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 19:09:57 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 19:09:57 [INFO] app.app.integrations.livekit_sip:74 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 19:09:57 [INFO] app.app.integrations.livekit_sip:111 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 19:09:57 [INFO] app.app.integrations.livekit_sip:148 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 19:09:57 [INFO] app.app.integrations.livekit_sip:94 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 19:09:57 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 19:09:57 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 19:09:57 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 19:09:57 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 19:09:57 [INFO] app.app.integrations.livekit_sip:189 - _websocket_listener: Connecting to LiveKit WebSocket: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJpc3MiOiJBUElMSmFUaUxVTEVmOFgiLCJuYmYiOjE3NDY4ODQzOTcsImV4cCI6MTc0NjkwNTk5N30.gyYVwbj2_cBz-7hmMzFferSNq5nlesahtPMvPT37pwo
+2025-05-10 19:09:58 [ERROR] app.app.integrations.livekit_sip:209 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 19:09:58 [WARNING] app.app.integrations.livekit_sip:210 - _websocket_listener: Falling back to mock WebSocket listener
+2025-05-10 19:09:58 [INFO] app.app.integrations.livekit_sip:227 - _mock_websocket_listener: Mock WebSocket listener started
+2025-05-10 19:10:07 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:10:07 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:10:09 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:10:09 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:16:49 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:16:49 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:16:49 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 19:16:49 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 19:16:49 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 19:16:49 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 19:16:50 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 19:16:50 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 19:16:50 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 19:16:50 [INFO] app.app.integrations.livekit_sip:74 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 19:16:50 [INFO] app.app.integrations.livekit_sip:111 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 19:16:50 [INFO] app.app.integrations.livekit_sip:148 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 19:16:50 [INFO] app.app.integrations.livekit_sip:94 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 19:16:50 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 19:16:50 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 19:16:50 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 19:16:50 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 19:16:50 [INFO] app.app.integrations.livekit_sip:189 - _websocket_listener: Connecting to LiveKit WebSocket: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJpc3MiOiJBUElMSmFUaUxVTEVmOFgiLCJuYmYiOjE3NDY4ODQ4MTAsImV4cCI6MTc0NjkwNjQxMH0.MRNXVjYzosG1eVXYBtYwYScSIiQfd7T2ebYT_4sNKfc
+2025-05-10 19:16:50 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 19:16:50 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 19:16:50 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 19:16:50 [INFO] app.app.integrations.livekit_sip:446 - cleanup: Cleaning up LiveKit SIP integration
+2025-05-10 19:16:50 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 19:16:50 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000021594701610>
+2025-05-10 19:17:05 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 19:17:05 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 19:17:05 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 19:17:05 [INFO] app.app.integrations.livekit_sip:446 - cleanup: Cleaning up LiveKit SIP integration
+2025-05-10 19:17:05 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 19:17:05 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001D1BA415D60>
+2025-05-10 19:17:10 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:17:10 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:17:10 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 19:17:10 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 19:17:10 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 19:17:11 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 19:17:14 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 19:17:15 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 19:17:15 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 19:17:15 [INFO] app.app.integrations.livekit_sip:74 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 19:17:15 [INFO] app.app.integrations.livekit_sip:111 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 19:17:15 [INFO] app.app.integrations.livekit_sip:148 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 19:17:15 [INFO] app.app.integrations.livekit_sip:94 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 19:17:15 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 19:17:15 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 19:17:15 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 19:17:15 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 19:17:15 [INFO] app.app.integrations.livekit_sip:189 - _websocket_listener: Connecting to LiveKit WebSocket: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJpc3MiOiJBUElMSmFUaUxVTEVmOFgiLCJuYmYiOjE3NDY4ODQ4MzUsImV4cCI6MTc0NjkwNjQzNX0.lzAlX9VDUVySN2i5DxsPhEMq2wbfsWBmvOT4u8V722s
+2025-05-10 19:17:15 [ERROR] app.app.integrations.livekit_sip:209 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 19:17:15 [WARNING] app.app.integrations.livekit_sip:210 - _websocket_listener: Falling back to mock WebSocket listener
+2025-05-10 19:17:15 [INFO] app.app.integrations.livekit_sip:227 - _mock_websocket_listener: Mock WebSocket listener started
+2025-05-10 19:17:27 [ERROR] app.app.api.calls:84 - create_test_call: Error creating test call: 'AIAgent' object has no attribute 'initialized'
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\app\api\calls.py", line 44, in create_test_call
+    if not ai_agent or not ai_agent.initialized:
+                           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AIAgent' object has no attribute 'initialized'. Did you mean: 'initialize'?
+2025-05-10 19:17:27 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:17:37 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:17:38 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:17:47 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:17:48 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:18:01 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:18:01 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:20:49 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 19:20:49 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 19:20:49 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 19:20:49 [INFO] app.app.integrations.livekit_sip:446 - cleanup: Cleaning up LiveKit SIP integration
+2025-05-10 19:20:49 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 19:20:49 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000132CEB93E30>
+2025-05-10 19:21:33 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:21:33 [INFO] app.__main__:27 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-10 19:21:33 [INFO] app.__main__:28 - <module>: LiveKit URL: wss://telephony-k2ukb9dj.livekit.cloud
+2025-05-10 19:21:33 [INFO] app.__main__:29 - <module>: Business Name: Elegant Touch Salon
+2025-05-10 19:21:33 [INFO] app.__main__:30 - <module>: STT Provider: deepgram  # Options: deepgram, assemblyai, google
+2025-05-10 19:21:33 [INFO] app.__main__:31 - <module>: TTS Provider: neuphonic  # Options: neuphonic, elevenlabs, google
+2025-05-10 19:21:59 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:21:59 [INFO] app.__main__:27 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-10 19:21:59 [INFO] app.__main__:28 - <module>: LiveKit URL: wss://telephony-k2ukb9dj.livekit.cloud
+2025-05-10 19:21:59 [INFO] app.__main__:29 - <module>: Business Name: Elegant Touch Salon
+2025-05-10 19:21:59 [INFO] app.__main__:30 - <module>: STT Provider: deepgram  # Options: deepgram, assemblyai, google
+2025-05-10 19:21:59 [INFO] app.__main__:31 - <module>: TTS Provider: neuphonic  # Options: neuphonic, elevenlabs, google
+2025-05-10 19:22:00 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:22:19 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:22:19 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:22:19 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 19:22:19 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 19:22:19 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 19:22:23 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 19:22:23 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 19:22:24 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 19:22:24 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 19:22:24 [INFO] app.app.integrations.livekit_sip:74 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 19:22:24 [INFO] app.app.integrations.livekit_sip:111 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 19:22:24 [INFO] app.app.integrations.livekit_sip:148 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 19:22:24 [INFO] app.app.integrations.livekit_sip:94 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 19:22:24 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 19:22:24 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 19:22:24 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 19:22:24 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 19:22:24 [INFO] app.app.integrations.livekit_sip:189 - _websocket_listener: Connecting to LiveKit WebSocket: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJpc3MiOiJBUElMSmFUaUxVTEVmOFgiLCJuYmYiOjE3NDY4ODUxNDQsImV4cCI6MTc0NjkwNjc0NH0.LW-lM2b8aLMnkjLGS4ojlQ1_lYN3Ym1V9QpSsxafJKk
+2025-05-10 19:22:24 [ERROR] app.app.integrations.livekit_sip:209 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 19:22:24 [WARNING] app.app.integrations.livekit_sip:210 - _websocket_listener: Falling back to mock WebSocket listener
+2025-05-10 19:22:24 [INFO] app.app.integrations.livekit_sip:227 - _mock_websocket_listener: Mock WebSocket listener started
+2025-05-10 19:22:40 [ERROR] app.app.api.calls:84 - create_test_call: Error creating test call: 'AIAgent' object has no attribute 'initialized'
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\app\api\calls.py", line 44, in create_test_call
+    if not ai_agent or not ai_agent.initialized:
+                           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AIAgent' object has no attribute 'initialized'. Did you mean: 'initialize'?
+2025-05-10 19:22:40 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:28:50 [WARNING] watchfiles.main:344 - stop: process already dead, exit code: 1
+2025-05-10 19:28:51 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:31:17 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:32:25 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:32:40 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:32:46 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:33:04 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:33:07 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:33:20 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:33:20 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:33:20 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 19:33:20 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 19:33:20 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 19:33:21 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 19:33:21 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 19:33:22 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 19:33:22 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 19:33:22 [ERROR] app.config.livekit_config:81 - validate: Invalid LiveKit URL format!
+2025-05-10 19:33:22 [ERROR] app.config.livekit_config:82 - validate: The URL should not include protocol (https://) or trailing slash
+2025-05-10 19:33:22 [ERROR] app.app.integrations.livekit_sip:70 - initialize: Invalid LiveKit configuration, SIP integration disabled
+2025-05-10 19:33:22 [WARNING] app.app.main:128 - startup_event: AI agent initialization failed or LiveKit SIP is disabled
+2025-05-10 19:33:22 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 19:33:22 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 19:33:22 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 19:33:22 [INFO] app.app.integrations.livekit_sip:451 - cleanup: Cleaning up LiveKit SIP integration
+2025-05-10 19:33:22 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 19:33:29 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 19:33:29 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 19:33:29 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 19:33:29 [INFO] app.app.integrations.livekit_sip:446 - cleanup: Cleaning up LiveKit SIP integration
+2025-05-10 19:33:29 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 19:33:30 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000026A7ECCFB90>
+2025-05-10 19:33:34 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:33:34 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:33:34 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 19:33:34 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 19:33:34 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 19:33:35 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 19:33:35 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 19:33:36 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 19:33:36 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 19:33:36 [INFO] app.app.integrations.livekit_sip:74 - initialize: Initializing LiveKit SIP integration with Voice Agents...
+2025-05-10 19:33:36 [INFO] app.app.integrations.livekit_sip:116 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 19:33:36 [INFO] app.app.integrations.livekit_sip:153 - setup_websocket_listener: Setting up WebSocket listener for LiveKit events
+2025-05-10 19:33:36 [INFO] app.app.integrations.livekit_sip:99 - initialize: LiveKit SIP integration initialized successfully
+2025-05-10 19:33:36 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 19:33:36 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 19:33:36 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 19:33:36 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 19:33:36 [INFO] app.app.integrations.livekit_sip:194 - _websocket_listener: Connecting to LiveKit WebSocket: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIiLCJpc3MiOiJBUElMSmFUaUxVTEVmOFgiLCJuYmYiOjE3NDY4ODU4MTYsImV4cCI6MTc0NjkwNzQxNn0.2rmYRjp3SiuDJoZHOxLjcT5fTn3YR6kV5CmvQeQRQSM
+2025-05-10 19:33:36 [ERROR] app.app.integrations.livekit_sip:214 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 19:33:36 [WARNING] app.app.integrations.livekit_sip:215 - _websocket_listener: Falling back to mock WebSocket listener
+2025-05-10 19:33:36 [INFO] app.app.integrations.livekit_sip:232 - _mock_websocket_listener: Mock WebSocket listener started
+2025-05-10 19:33:48 [ERROR] app.app.api.calls:84 - create_test_call: Error creating test call: 'AIAgent' object has no attribute 'initialized'
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\app\api\calls.py", line 44, in create_test_call
+    if not ai_agent or not ai_agent.initialized:
+                           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AIAgent' object has no attribute 'initialized'. Did you mean: 'initialize'?
+2025-05-10 19:33:48 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:33:51 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 19:37:01 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 19:37:01 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 19:37:01 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 19:37:01 [INFO] app.app.integrations.livekit_sip:451 - cleanup: Cleaning up LiveKit SIP integration
+2025-05-10 19:37:01 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 19:59:32 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:59:32 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 19:59:32 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 19:59:32 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 19:59:32 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 19:59:34 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 19:59:34 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 19:59:35 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 19:59:35 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 19:59:35 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-10 19:59:35 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 19:59:35 [INFO] app.app.integrations.livekit_sip:145 - setup_websocket_listener: Setting up WebSocket listener for voice events
+2025-05-10 19:59:35 [INFO] app.app.integrations.livekit_sip:182 - setup_websocket_listener: Starting voice WebSocket listener: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI...
+2025-05-10 19:59:35 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-10 19:59:35 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 19:59:35 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 19:59:35 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 19:59:35 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 19:59:35 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 19:59:36 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 19:59:36 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 1 seconds...
+2025-05-10 19:59:37 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 19:59:38 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 19:59:38 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 2 seconds...
+2025-05-10 19:59:40 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 19:59:40 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 19:59:40 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 4 seconds...
+2025-05-10 19:59:44 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 19:59:45 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 19:59:45 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 8 seconds...
+2025-05-10 19:59:53 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 19:59:53 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 19:59:53 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 16 seconds...
+2025-05-10 20:00:09 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 20:00:10 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 20:00:10 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 32 seconds...
+2025-05-10 20:00:42 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 20:00:43 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 20:00:43 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 60 seconds...
+2025-05-10 20:01:43 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 20:01:44 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 20:01:44 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 60 seconds...
+2025-05-10 20:01:52 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 20:01:52 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 20:01:52 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 20:01:52 [INFO] app.app.integrations.livekit_sip:444 - cleanup: Cleaning up voice-only LiveKit SIP integration
+2025-05-10 20:01:52 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 20:31:51 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 20:31:51 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 20:31:51 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 20:31:51 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 20:31:51 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 20:31:52 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 20:31:52 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 20:31:53 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 20:31:53 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 20:31:53 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-10 20:31:53 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 20:31:53 [INFO] app.app.integrations.livekit_sip:145 - setup_websocket_listener: Setting up WebSocket listener for voice events
+2025-05-10 20:31:53 [INFO] app.app.integrations.livekit_sip:182 - setup_websocket_listener: Starting voice WebSocket listener: wss://telephony-hqt84wbi.livekit.cloud/rtc?access_token=eyJhbGciOiJIUzI...
+2025-05-10 20:31:53 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-10 20:31:53 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 20:31:53 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 20:31:53 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 20:31:53 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 20:31:53 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 20:31:54 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 20:31:54 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 1 seconds...
+2025-05-10 20:31:55 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 20:31:55 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 20:31:55 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 2 seconds...
+2025-05-10 20:31:57 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 20:31:58 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 20:31:58 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 4 seconds...
+2025-05-10 20:32:02 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 20:32:03 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 20:32:03 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 8 seconds...
+2025-05-10 20:32:11 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 20:32:12 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 20:32:12 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 16 seconds...
+2025-05-10 20:32:28 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 20:32:29 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 20:32:29 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 32 seconds...
+2025-05-10 20:33:01 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 20:33:02 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 20:33:02 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 60 seconds...
+2025-05-10 20:34:02 [INFO] app.app.integrations.livekit_sip:205 - _websocket_listener: Connecting to voice WebSocket...
+2025-05-10 20:34:04 [ERROR] app.app.integrations.livekit_sip:251 - _websocket_listener: WebSocket connection error: server rejected WebSocket connection: HTTP 401
+2025-05-10 20:34:04 [INFO] app.app.integrations.livekit_sip:254 - _websocket_listener: WebSocket disconnected, retrying in 60 seconds...
+2025-05-10 20:34:17 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 20:34:17 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 20:34:17 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 20:34:17 [INFO] app.app.integrations.livekit_sip:444 - cleanup: Cleaning up voice-only LiveKit SIP integration
+2025-05-10 20:34:17 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 20:34:17 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000229B06A2330>
+2025-05-10 23:39:17 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 23:39:17 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 23:39:17 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 23:39:17 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 23:39:17 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 23:39:18 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 23:39:18 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 23:39:18 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 23:39:18 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 23:39:18 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-10 23:39:18 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 23:39:18 [INFO] app.app.integrations.livekit_sip:145 - setup_websocket_listener: Setting up WebSocket listener for voice events
+2025-05-10 23:39:18 [ERROR] app.app.integrations.livekit_sip:196 - setup_websocket_listener: Error setting up voice WebSocket listener: identity and room must be set when joining a room
+2025-05-10 23:39:18 [WARNING] app.app.integrations.livekit_sip:198 - setup_websocket_listener: Using mock WebSocket listener for development
+2025-05-10 23:39:18 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-10 23:39:18 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 23:39:18 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 23:39:18 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 23:39:18 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 23:39:18 [INFO] app.app.integrations.livekit_sip:271 - _mock_websocket_listener: Mock voice WebSocket listener started
+2025-05-10 23:40:08 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 23:40:25 [ERROR] app.app.api.calls:84 - create_test_call: Error creating test call: 'AIAgent' object has no attribute 'initialized'
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\app\api\calls.py", line 44, in create_test_call
+    if not ai_agent or not ai_agent.initialized:
+                           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AIAgent' object has no attribute 'initialized'. Did you mean: 'initialize'?
+2025-05-10 23:40:25 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 23:40:44 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-10 23:42:00 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-10 23:42:00 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-10 23:42:00 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-10 23:42:00 [INFO] app.app.integrations.livekit_sip:452 - cleanup: Cleaning up voice-only LiveKit SIP integration
+2025-05-10 23:42:00 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-10 23:43:00 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 23:43:00 [INFO] app.__main__:27 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-10 23:43:00 [INFO] app.__main__:28 - <module>: LiveKit URL: telephony-hqt84wbi.livekit.cloud
+2025-05-10 23:43:00 [INFO] app.__main__:29 - <module>: Business Name: Elegant Touch Salon
+2025-05-10 23:43:00 [INFO] app.__main__:30 - <module>: STT Provider: deepgram  # Options: deepgram, assemblyai, google
+2025-05-10 23:43:00 [INFO] app.__main__:31 - <module>: TTS Provider: neuphonic  # Options: neuphonic, elevenlabs, google
+2025-05-10 23:46:18 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 23:46:18 [INFO] app.__main__:27 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-10 23:46:18 [INFO] app.__main__:28 - <module>: LiveKit URL: telephony-hqt84wbi.livekit.cloud
+2025-05-10 23:46:18 [INFO] app.__main__:29 - <module>: Business Name: Elegant Touch Salon
+2025-05-10 23:46:18 [INFO] app.__main__:30 - <module>: STT Provider: deepgram  # Options: deepgram, assemblyai, google
+2025-05-10 23:46:18 [INFO] app.__main__:31 - <module>: TTS Provider: neuphonic  # Options: neuphonic, elevenlabs, google
+2025-05-10 23:54:31 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 23:54:31 [INFO] app.__main__:27 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-10 23:54:31 [INFO] app.__main__:28 - <module>: LiveKit URL: telephony-hqt84wbi.livekit.cloud
+2025-05-10 23:54:31 [INFO] app.__main__:29 - <module>: Business Name: Elegant Touch Salon
+2025-05-10 23:54:31 [INFO] app.__main__:30 - <module>: STT Provider: deepgram  # Options: deepgram, assemblyai, google
+2025-05-10 23:54:31 [INFO] app.__main__:31 - <module>: TTS Provider: neuphonic  # Options: neuphonic, elevenlabs, google
+2025-05-10 23:54:43 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 23:54:43 [INFO] app.__main__:27 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-10 23:54:43 [INFO] app.__main__:28 - <module>: LiveKit URL: telephony-hqt84wbi.livekit.cloud
+2025-05-10 23:54:43 [INFO] app.__main__:29 - <module>: Business Name: Elegant Touch Salon
+2025-05-10 23:54:43 [INFO] app.__main__:30 - <module>: STT Provider: deepgram  # Options: deepgram, assemblyai, google
+2025-05-10 23:54:43 [INFO] app.__main__:31 - <module>: TTS Provider: neuphonic  # Options: neuphonic, elevenlabs, google
+2025-05-10 23:54:44 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 23:55:28 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 23:55:28 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 23:55:28 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-10 23:55:28 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-10 23:55:28 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-10 23:55:29 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-10 23:55:29 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-10 23:55:29 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-10 23:55:29 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-10 23:55:29 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-10 23:55:29 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-10 23:55:29 [INFO] app.app.integrations.livekit_sip:145 - setup_websocket_listener: Setting up WebSocket listener for voice events
+2025-05-10 23:55:29 [ERROR] app.app.integrations.livekit_sip:196 - setup_websocket_listener: Error setting up voice WebSocket listener: identity and room must be set when joining a room
+2025-05-10 23:55:29 [WARNING] app.app.integrations.livekit_sip:198 - setup_websocket_listener: Using mock WebSocket listener for development
+2025-05-10 23:55:29 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-10 23:55:29 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-10 23:55:29 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-10 23:55:29 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-10 23:55:29 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-10 23:55:29 [INFO] app.app.integrations.livekit_sip:271 - _mock_websocket_listener: Mock voice WebSocket listener started
+2025-05-10 23:56:13 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 23:56:13 [INFO] app.__main__:27 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-10 23:56:13 [INFO] app.__main__:28 - <module>: LiveKit URL: telephony-hqt84wbi.livekit.cloud
+2025-05-10 23:56:13 [INFO] app.__main__:29 - <module>: Business Name: Elegant Touch Salon
+2025-05-10 23:56:13 [INFO] app.__main__:30 - <module>: STT Provider: deepgram  # Options: deepgram, assemblyai, google
+2025-05-10 23:56:13 [INFO] app.__main__:31 - <module>: TTS Provider: neuphonic  # Options: neuphonic, elevenlabs, google
+2025-05-10 23:56:14 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-10 23:59:36 [WARNING] watchfiles.main:344 - stop: process already dead, exit code: 0
+2025-05-10 23:59:37 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:02:50 [WARNING] watchfiles.main:344 - stop: process already dead, exit code: 1
+2025-05-11 00:02:51 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:04:49 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:04:57 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:05:16 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:05:35 [ERROR] app.__main__:36 - <module>: Worker failed: 
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\watcher.py", line 90, in run
+    await watchfiles.arun_process(
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\watchfiles\run.py", line 216, in arun_process
+    async for changes in awatch(
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\watchfiles\main.py", line 254, in awatch
+    async with anyio.create_task_group() as tg:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 776, in __aexit__
+    raise exc_val
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\watchfiles\main.py", line 256, in awatch
+    raw_changes = await anyio.to_thread.run_sync(watcher.watch, debounce, step, timeout, stop_event_)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 57, in aclose
+    await self._writer.wait_closed()
+  File "C:\Users\priya\anaconda3\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\priya\anaconda3\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\windows_events.py", line 542, in send
+    ov.WSASend(conn.fileno(), buf, flags)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\run_agent.py", line 34, in <module>
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\app\agents\voice_agent.py", line 206, in run_worker
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 187, in run_app
+    cli()
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\click\core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\click\core.py", line 1082, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\click\core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\click\core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\click\core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 158, in connect
+    _run_dev(
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 228, in _run_dev
+    asyncio.run(_run_loop())
+  File "C:\Users\priya\anaconda3\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 225, in _run_loop
+    await server.run()
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\watcher.py", line 99, in run
+    await self._pch.aclose()
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 60, in aclose
+    raise DuplexClosed()
+livekit.agents.utils.aio.duplex_unix.DuplexClosed
+2025-05-11 00:05:44 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:05:44 [INFO] app.__main__:18 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-11 00:05:44 [INFO] app.__main__:19 - <module>: LiveKit URL: telephony-hqt84wbi.livekit.cloud
+2025-05-11 00:05:44 [INFO] app.app.agents.voice_agent:138 - run_worker: Connecting to LiveKit at: telephony-hqt84wbi.livekit.cloud
+2025-05-11 00:06:38 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:06:38 [INFO] app.__main__:18 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-11 00:06:38 [INFO] app.__main__:19 - <module>: LiveKit URL: telephony-hqt84wbi.livekit.cloud
+2025-05-11 00:06:38 [INFO] app.app.agents.voice_agent:138 - run_worker: Connecting to LiveKit at: telephony-hqt84wbi.livekit.cloud
+2025-05-11 00:06:55 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:06:55 [INFO] app.__main__:18 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-11 00:06:55 [INFO] app.__main__:19 - <module>: LiveKit URL: telephony-hqt84wbi.livekit.cloud
+2025-05-11 00:06:55 [INFO] app.app.agents.voice_agent:138 - run_worker: Connecting to LiveKit at: telephony-hqt84wbi.livekit.cloud
+2025-05-11 00:06:56 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:07:14 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:07:14 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:07:14 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-11 00:07:14 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-11 00:07:14 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-11 00:07:15 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-11 00:07:15 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-11 00:07:16 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 00:07:16 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-11 00:07:16 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-11 00:07:16 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-11 00:07:16 [INFO] app.app.integrations.livekit_sip:146 - setup_websocket_listener: Setting up event monitoring for voice calls
+2025-05-11 00:07:16 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-11 00:07:16 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-11 00:07:16 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-11 00:07:16 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-11 00:07:16 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-11 00:07:16 [ERROR] app.app.integrations.livekit_sip:173 - _monitor_rooms: Error monitoring rooms: RoomService.list_rooms() missing 1 required positional argument: 'list'
+2025-05-11 00:07:16 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-11 00:07:16 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-11 00:07:16 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-11 00:07:16 [INFO] app.app.integrations.livekit_sip:429 - cleanup: Cleaning up voice-only LiveKit SIP integration
+2025-05-11 00:07:16 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-11 00:07:16 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000023BFFC5A9C0>
+2025-05-11 00:13:30 [ERROR] app.__main__:25 - <module>: Worker failed: 
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 50, in send_bytes
+    await self._writer.drain()
+  File "C:\Users\priya\anaconda3\Lib\asyncio\streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "C:\Users\priya\anaconda3\Lib\asyncio\streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\watcher.py", line 90, in run
+    await watchfiles.arun_process(
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\watchfiles\run.py", line 228, in arun_process
+    await r
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\watcher.py", line 108, in _on_reload
+    await channel.asend_message(self._pch, proto.ActiveJobsRequest())
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\ipc\channel.py", line 51, in asend_message
+    await dplx.send_bytes(_write_message(msg))
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 52, in send_bytes
+    raise DuplexClosed()
+livekit.agents.utils.aio.duplex_unix.DuplexClosed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 57, in aclose
+    await self._writer.wait_closed()
+  File "C:\Users\priya\anaconda3\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\priya\anaconda3\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\windows_events.py", line 542, in send
+    ov.WSASend(conn.fileno(), buf, flags)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\run_agent.py", line 23, in <module>
+    run_worker()
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\app\agents\voice_agent.py", line 149, in run_worker
+    cli.run_app(worker)
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 187, in run_app
+    cli()
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\click\core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\click\core.py", line 1082, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\click\core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\click\core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\click\core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 158, in connect
+    _run_dev(
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 228, in _run_dev
+    asyncio.run(_run_loop())
+  File "C:\Users\priya\anaconda3\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 225, in _run_loop
+    await server.run()
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\cli\watcher.py", line 99, in run
+    await self._pch.aclose()
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 60, in aclose
+    raise DuplexClosed()
+livekit.agents.utils.aio.duplex_unix.DuplexClosed
+2025-05-11 00:15:47 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:15:47 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:15:47 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-11 00:15:47 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-11 00:15:47 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-11 00:15:48 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-11 00:15:48 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-11 00:15:49 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 00:15:49 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-11 00:15:49 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-11 00:15:49 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-11 00:15:49 [INFO] app.app.integrations.livekit_sip:146 - setup_websocket_listener: Setting up event monitoring for voice calls
+2025-05-11 00:15:49 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-11 00:15:49 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-11 00:15:49 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-11 00:15:49 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-11 00:15:49 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-11 00:15:49 [INFO] app.app.integrations.livekit_sip:161 - _monitor_sip_events: Starting SIP event monitor
+2025-05-11 00:15:49 [ERROR] app.app.integrations.livekit_sip:187 - _monitor_sip_events: Error monitoring SIP events: RoomService.list_rooms() missing 1 required positional argument: 'list'
+2025-05-11 00:15:49 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-11 00:15:49 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-11 00:15:49 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-11 00:15:49 [INFO] app.app.integrations.livekit_sip:492 - cleanup: Cleaning up voice-only LiveKit SIP integration
+2025-05-11 00:15:49 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-11 00:15:49 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000029B80ACA6F0>
+2025-05-11 00:16:37 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:16:37 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:16:37 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-11 00:16:37 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-11 00:16:37 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-11 00:16:38 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-11 00:16:38 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-11 00:16:38 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 00:16:38 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-11 00:16:38 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-11 00:16:38 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-11 00:16:38 [ERROR] app.app.integrations.livekit_sip:98 - initialize: Failed to initialize LiveKit SIP integration: 'LiveKitSipIntegration' object has no attribute 'setup_websocket_listener'
+2025-05-11 00:16:38 [WARNING] app.app.main:128 - startup_event: AI agent initialization failed or LiveKit SIP is disabled
+2025-05-11 00:16:38 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-11 00:16:38 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-11 00:16:38 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-11 00:16:38 [ERROR] app.app.main:157 - shutdown_event: Error during shutdown: 'LiveKitSipIntegration' object has no attribute 'cleanup'
+2025-05-11 00:16:38 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000290C603A3C0>
+2025-05-11 00:17:14 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:17:14 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:17:14 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-11 00:17:14 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-11 00:17:14 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-11 00:17:14 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-11 00:17:15 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-11 00:17:15 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 00:17:15 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-11 00:17:15 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-11 00:17:15 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-11 00:17:15 [INFO] app.app.integrations.livekit_sip:146 - setup_websocket_listener: Setting up event monitoring for voice calls
+2025-05-11 00:17:15 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-11 00:17:15 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-11 00:17:15 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-11 00:17:15 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-11 00:17:15 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-11 00:17:15 [ERROR] app.app.integrations.livekit_sip:174 - _monitor_rooms: Error monitoring rooms: RoomService.list_rooms() missing 1 required positional argument: 'list'
+2025-05-11 00:17:15 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-11 00:17:15 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-11 00:17:15 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-11 00:17:15 [INFO] app.app.integrations.livekit_sip:430 - cleanup: Cleaning up voice-only LiveKit SIP integration
+2025-05-11 00:17:15 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-11 00:17:15 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x00000237518FA210>
+2025-05-11 00:18:21 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:18:21 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:18:21 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-11 00:18:21 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-11 00:18:21 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-11 00:18:22 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-11 00:18:22 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-11 00:18:23 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 00:18:23 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-11 00:18:23 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-11 00:18:23 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-11 00:18:23 [INFO] app.app.integrations.livekit_sip:145 - setup_websocket_listener: Setting up WebSocket listener for voice events
+2025-05-11 00:18:23 [ERROR] app.app.integrations.livekit_sip:196 - setup_websocket_listener: Error setting up voice WebSocket listener: identity and room must be set when joining a room
+2025-05-11 00:18:23 [WARNING] app.app.integrations.livekit_sip:198 - setup_websocket_listener: Using mock WebSocket listener for development
+2025-05-11 00:18:23 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-11 00:18:23 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-11 00:18:23 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-11 00:18:23 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-11 00:18:23 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-11 00:18:23 [INFO] app.app.integrations.livekit_sip:271 - _mock_websocket_listener: Mock voice WebSocket listener started
+2025-05-11 00:18:23 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-11 00:18:23 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-11 00:18:23 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-11 00:18:23 [INFO] app.app.integrations.livekit_sip:452 - cleanup: Cleaning up voice-only LiveKit SIP integration
+2025-05-11 00:18:23 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-11 00:18:23 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001617FADA5A0>
+2025-05-11 00:19:38 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:19:38 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:19:38 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-11 00:19:38 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-11 00:19:38 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-11 00:19:38 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-11 00:19:39 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-11 00:19:39 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 00:19:39 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-11 00:19:39 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-11 00:19:39 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-11 00:19:39 [INFO] app.app.integrations.livekit_sip:145 - setup_websocket_listener: Setting up WebSocket listener for voice events
+2025-05-11 00:19:39 [ERROR] app.app.integrations.livekit_sip:196 - setup_websocket_listener: Error setting up voice WebSocket listener: identity and room must be set when joining a room
+2025-05-11 00:19:39 [WARNING] app.app.integrations.livekit_sip:198 - setup_websocket_listener: Using mock WebSocket listener for development
+2025-05-11 00:19:39 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-11 00:19:39 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-11 00:19:39 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-11 00:19:39 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-11 00:19:39 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-11 00:19:39 [INFO] app.app.integrations.livekit_sip:271 - _mock_websocket_listener: Mock voice WebSocket listener started
+2025-05-11 00:19:39 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-11 00:19:39 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-11 00:19:39 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-11 00:19:39 [INFO] app.app.integrations.livekit_sip:452 - cleanup: Cleaning up voice-only LiveKit SIP integration
+2025-05-11 00:19:39 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-11 00:19:39 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001DBFEA6F860>
+2025-05-11 00:20:49 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:20:49 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:20:49 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-11 00:20:49 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-11 00:20:49 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-11 00:20:50 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-11 00:20:50 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-11 00:20:51 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 00:20:51 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-11 00:20:51 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-11 00:20:51 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-11 00:20:51 [INFO] app.app.integrations.livekit_sip:145 - setup_websocket_listener: Setting up WebSocket listener for voice events
+2025-05-11 00:20:51 [ERROR] app.app.integrations.livekit_sip:196 - setup_websocket_listener: Error setting up voice WebSocket listener: identity and room must be set when joining a room
+2025-05-11 00:20:51 [WARNING] app.app.integrations.livekit_sip:198 - setup_websocket_listener: Using mock WebSocket listener for development
+2025-05-11 00:20:51 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-11 00:20:51 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-11 00:20:51 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-11 00:20:51 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-11 00:20:51 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-11 00:20:51 [INFO] app.app.integrations.livekit_sip:271 - _mock_websocket_listener: Mock voice WebSocket listener started
+2025-05-11 00:24:34 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-11 00:24:34 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-11 00:24:34 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-11 00:24:34 [INFO] app.app.integrations.livekit_sip:452 - cleanup: Cleaning up voice-only LiveKit SIP integration
+2025-05-11 00:24:34 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-11 00:24:34 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x000001FA16ADA330>
+2025-05-11 00:57:12 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:57:12 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 00:57:12 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-11 00:57:12 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-11 00:57:12 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-11 00:57:13 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-11 00:57:13 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-11 00:57:13 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 00:57:13 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-11 00:57:13 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-11 00:57:13 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-11 00:57:13 [INFO] app.app.integrations.livekit_sip:145 - setup_websocket_listener: Setting up WebSocket listener for voice events
+2025-05-11 00:57:13 [ERROR] app.app.integrations.livekit_sip:196 - setup_websocket_listener: Error setting up voice WebSocket listener: identity and room must be set when joining a room
+2025-05-11 00:57:13 [WARNING] app.app.integrations.livekit_sip:198 - setup_websocket_listener: Using mock WebSocket listener for development
+2025-05-11 00:57:13 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-11 00:57:13 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-11 00:57:13 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-11 00:57:13 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-11 00:57:13 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-11 00:57:13 [INFO] app.app.integrations.livekit_sip:271 - _mock_websocket_listener: Mock voice WebSocket listener started
+2025-05-11 00:58:48 [ERROR] app.app.api.calls:84 - create_test_call: Error creating test call: 'AIAgent' object has no attribute 'initialized'
+Traceback (most recent call last):
+  File "C:\frontdesk\frontdesk-ai-supervisor\backend\app\api\calls.py", line 44, in create_test_call
+    if not ai_agent or not ai_agent.initialized:
+                           ^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'AIAgent' object has no attribute 'initialized'. Did you mean: 'initialize'?
+2025-05-11 00:58:49 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-11 00:58:53 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-11 01:15:18 [INFO] app.app.main:144 - shutdown_event: Shutting down application...
+2025-05-11 01:15:18 [INFO] app.app.services.agent_service:56 - stop: Stopping voice agent service...
+2025-05-11 01:15:18 [INFO] app.app.services.ai_agent:487 - cleanup: Cleaning up AI agent
+2025-05-11 01:15:18 [INFO] app.app.integrations.livekit_sip:452 - cleanup: Cleaning up voice-only LiveKit SIP integration
+2025-05-11 01:15:18 [INFO] app.app.main:154 - shutdown_event: Application shutdown complete
+2025-05-11 01:15:18 [ERROR] asyncio:1820 - default_exception_handler: Unclosed client session
+client_session: <aiohttp.client.ClientSession object at 0x0000018EF31DA720>
+2025-05-11 01:15:35 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 01:15:35 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 01:15:35 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-11 01:15:35 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-11 01:15:35 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-11 01:15:35 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-11 01:15:36 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-11 01:15:36 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 01:15:36 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-11 01:15:36 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-11 01:15:36 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-11 01:15:36 [INFO] app.app.integrations.livekit_sip:145 - setup_websocket_listener: Setting up WebSocket listener for voice events
+2025-05-11 01:15:36 [ERROR] app.app.integrations.livekit_sip:196 - setup_websocket_listener: Error setting up voice WebSocket listener: identity and room must be set when joining a room
+2025-05-11 01:15:36 [WARNING] app.app.integrations.livekit_sip:198 - setup_websocket_listener: Using mock WebSocket listener for development
+2025-05-11 01:15:36 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-11 01:15:36 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-11 01:15:36 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-11 01:15:36 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-11 01:15:36 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-11 01:15:36 [INFO] app.app.integrations.livekit_sip:271 - _mock_websocket_listener: Mock voice WebSocket listener started
+2025-05-11 01:18:56 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 01:18:56 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 01:18:56 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-11 01:18:56 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-11 01:18:56 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-11 01:18:56 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-11 01:18:57 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-11 01:18:57 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 01:18:57 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-11 01:18:57 [INFO] app.app.integrations.livekit_sip:69 - initialize: Initializing voice-only LiveKit SIP integration...
+2025-05-11 01:18:57 [INFO] app.app.integrations.livekit_sip:112 - create_sip_trunk: Using existing SIP trunk: st_1746861080
+2025-05-11 01:18:57 [INFO] app.app.integrations.livekit_sip:145 - setup_websocket_listener: Setting up WebSocket listener for voice events
+2025-05-11 01:18:57 [ERROR] app.app.integrations.livekit_sip:196 - setup_websocket_listener: Error setting up voice WebSocket listener: identity and room must be set when joining a room
+2025-05-11 01:18:57 [WARNING] app.app.integrations.livekit_sip:198 - setup_websocket_listener: Using mock WebSocket listener for development
+2025-05-11 01:18:57 [INFO] app.app.integrations.livekit_sip:94 - initialize: Voice-only LiveKit SIP integration initialized successfully
+2025-05-11 01:18:57 [INFO] app.app.main:118 - startup_event: AI agent initialized successfully
+2025-05-11 01:18:57 [INFO] app.app.services.agent_service:43 - start: Voice agent service ready (run worker separately)
+2025-05-11 01:18:57 [INFO] app.app.main:124 - startup_event: Voice Agent service started successfully
+2025-05-11 01:18:57 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-11 01:18:57 [INFO] app.app.integrations.livekit_sip:271 - _mock_websocket_listener: Mock voice WebSocket listener started
+2025-05-11 01:55:59 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 01:55:59 [INFO] app.__main__:22 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-11 01:55:59 [INFO] app.__main__:23 - <module>: LiveKit URL: telephony-acc-uw6tpf0u.livekit.cloud
+2025-05-11 01:55:59 [INFO] app.__main__:24 - <module>: Business Name: Elegant Touch Salon
+2025-05-11 01:56:00 [WARNING] app.__main__:33 - <module>: Could not import full voice agent: cannot import name 'AssistantOptions' from 'livekit.agents.voice_assistant' (C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\voice_assistant\__init__.py)
+2025-05-11 01:56:00 [INFO] app.app.services.speech_services:64 - _init_providers: Initialized Deepgram for Speech-to-Text
+2025-05-11 01:56:00 [INFO] app.app.services.speech_services:72 - _init_providers: Initialized Neuphonic for Text-to-Speech
+2025-05-11 01:56:01 [INFO] app.app.services.notification_service:33 - __init__: Twilio SMS notifications initialized
+2025-05-11 01:56:01 [INFO] app.config.livekit_config:53 - _load_sip_trunk_config: Loaded SIP trunk config with ID: st_1746861080
+2025-05-11 01:56:01 [INFO] app.__main__:37 - <module>: Using simple voice agent implementation
+2025-05-11 01:56:15 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 01:56:15 [INFO] app.__main__:22 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-11 01:56:15 [INFO] app.__main__:23 - <module>: LiveKit URL: telephony-acc-uw6tpf0u.livekit.cloud
+2025-05-11 01:56:15 [INFO] app.__main__:24 - <module>: Business Name: Elegant Touch Salon
+2025-05-11 01:56:16 [WARNING] app.__main__:33 - <module>: Could not import full voice agent: cannot import name 'AssistantOptions' from 'livekit.agents.voice_assistant' (C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\voice_assistant\__init__.py)
+2025-05-11 01:56:16 [INFO] app.app.services.speech_services:64 - _init_providers: Initialized Deepgram for Speech-to-Text
+2025-05-11 01:56:16 [INFO] app.app.services.speech_services:72 - _init_providers: Initialized Neuphonic for Text-to-Speech
+2025-05-11 01:56:16 [INFO] app.app.services.notification_service:33 - __init__: Twilio SMS notifications initialized
+2025-05-11 01:56:16 [INFO] app.config.livekit_config:53 - _load_sip_trunk_config: Loaded SIP trunk config with ID: st_1746861080
+2025-05-11 01:56:16 [INFO] app.__main__:37 - <module>: Using simple voice agent implementation
+2025-05-11 01:56:16 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 01:56:17 [INFO] app.app.services.speech_services:64 - _init_providers: Initialized Deepgram for Speech-to-Text
+2025-05-11 01:56:17 [INFO] app.app.services.speech_services:72 - _init_providers: Initialized Neuphonic for Text-to-Speech
+2025-05-11 01:56:18 [INFO] app.app.services.notification_service:33 - __init__: Twilio SMS notifications initialized
+2025-05-11 01:56:18 [INFO] app.config.livekit_config:53 - _load_sip_trunk_config: Loaded SIP trunk config with ID: st_1746861080
+2025-05-11 02:03:41 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 02:03:41 [INFO] app.__main__:22 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-11 02:03:41 [INFO] app.__main__:23 - <module>: LiveKit URL: telephony-acc-uw6tpf0u.livekit.cloud
+2025-05-11 02:03:41 [INFO] app.__main__:24 - <module>: Business Name: Elegant Touch Salon
+2025-05-11 02:03:42 [WARNING] app.__main__:33 - <module>: Could not import full voice agent: cannot import name 'AssistantOptions' from 'livekit.agents.voice_assistant' (C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\voice_assistant\__init__.py)
+2025-05-11 02:03:42 [INFO] app.app.services.speech_services:64 - _init_providers: Initialized Deepgram for Speech-to-Text
+2025-05-11 02:03:42 [INFO] app.app.services.speech_services:72 - _init_providers: Initialized Neuphonic for Text-to-Speech
+2025-05-11 02:03:42 [INFO] app.app.services.notification_service:33 - __init__: Twilio SMS notifications initialized
+2025-05-11 02:03:42 [INFO] app.config.livekit_config:53 - _load_sip_trunk_config: Loaded SIP trunk config with ID: st_1746861080
+2025-05-11 02:03:42 [INFO] app.__main__:37 - <module>: Using simple voice agent implementation
+2025-05-11 02:03:42 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 02:03:43 [INFO] app.app.services.speech_services:64 - _init_providers: Initialized Deepgram for Speech-to-Text
+2025-05-11 02:03:43 [INFO] app.app.services.speech_services:72 - _init_providers: Initialized Neuphonic for Text-to-Speech
+2025-05-11 02:03:43 [INFO] app.app.services.notification_service:33 - __init__: Twilio SMS notifications initialized
+2025-05-11 02:03:43 [INFO] app.config.livekit_config:53 - _load_sip_trunk_config: Loaded SIP trunk config with ID: st_1746861080
+2025-05-11 02:05:35 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 02:05:35 [INFO] app.__main__:22 - <module>: Starting LiveKit Voice Agent Worker...
+2025-05-11 02:05:35 [INFO] app.__main__:23 - <module>: LiveKit URL: telephony-k2ukb9dj.livekit.cloud
+2025-05-11 02:05:35 [INFO] app.__main__:24 - <module>: Business Name: Elegant Touch Salon
+2025-05-11 02:05:35 [WARNING] app.__main__:33 - <module>: Could not import full voice agent: cannot import name 'AssistantOptions' from 'livekit.agents.voice_assistant' (C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\voice_assistant\__init__.py)
+2025-05-11 02:05:36 [INFO] app.app.services.speech_services:64 - _init_providers: Initialized Deepgram for Speech-to-Text
+2025-05-11 02:05:36 [INFO] app.app.services.speech_services:72 - _init_providers: Initialized Neuphonic for Text-to-Speech
+2025-05-11 02:05:36 [INFO] app.app.services.notification_service:33 - __init__: Twilio SMS notifications initialized
+2025-05-11 02:05:36 [INFO] app.config.livekit_config:53 - _load_sip_trunk_config: Loaded SIP trunk config with ID: st_1746861080
+2025-05-11 02:05:36 [INFO] app.__main__:37 - <module>: Using simple voice agent implementation
+2025-05-11 02:05:36 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 02:05:37 [INFO] app.app.services.speech_services:64 - _init_providers: Initialized Deepgram for Speech-to-Text
+2025-05-11 02:05:37 [INFO] app.app.services.speech_services:72 - _init_providers: Initialized Neuphonic for Text-to-Speech
+2025-05-11 02:05:37 [INFO] app.app.services.notification_service:33 - __init__: Twilio SMS notifications initialized
+2025-05-11 02:05:37 [INFO] app.config.livekit_config:53 - _load_sip_trunk_config: Loaded SIP trunk config with ID: st_1746861080
+2025-05-11 02:09:47 [ERROR] app.__main__:46 - <module>: Worker failed: 
+Traceback (most recent call last):
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 50, in send_bytes
+    await self._writer.drain()
+  File "C:\Users\priya\anaconda3\Lib\asyncio\streams.py", line 392, in drain
+    await self._protocol._drain_helper()
+  File "C:\Users\priya\anaconda3\Lib\asyncio\streams.py", line 166, in _drain_helper
+    raise ConnectionResetError('Connection lost')
+ConnectionResetError: Connection lost
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\watcher.py", line 90, in run
+    await watchfiles.arun_process(
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\watchfiles\run.py", line 228, in arun_process
+    await r
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\watcher.py", line 108, in _on_reload
+    await channel.asend_message(self._pch, proto.ActiveJobsRequest())
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\ipc\channel.py", line 51, in asend_message
+    await dplx.send_bytes(_write_message(msg))
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 52, in send_bytes
+    raise DuplexClosed()
+livekit.agents.utils.aio.duplex_unix.DuplexClosed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 57, in aclose
+    await self._writer.wait_closed()
+  File "C:\Users\priya\anaconda3\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\priya\anaconda3\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\windows_events.py", line 542, in send
+    ov.WSASend(conn.fileno(), buf, flags)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\frontdesk\voicetest\backend\run_agent.py", line 44, in <module>
+    run_worker()
+  File "C:\frontdesk\voicetest\backend\app\agents\voice_agent_simple.py", line 229, in run_worker
+    cli.run_app(worker_options)
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 187, in run_app
+    cli()
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\click\core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\click\core.py", line 1082, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\click\core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\click\core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\click\core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 108, in dev
+    _run_dev(opts, log_level, url, api_key, api_secret, asyncio_debug, watch)
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 228, in _run_dev
+    asyncio.run(_run_loop())
+  File "C:\Users\priya\anaconda3\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 225, in _run_loop
+    await server.run()
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\watcher.py", line 99, in run
+    await self._pch.aclose()
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 60, in aclose
+    raise DuplexClosed()
+livekit.agents.utils.aio.duplex_unix.DuplexClosed
+2025-05-11 02:09:48 [WARNING] watchfiles.main:344 - stop: process already dead, exit code: 0
+2025-05-11 02:09:48 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 02:09:49 [INFO] app.app.services.speech_services:64 - _init_providers: Initialized Deepgram for Speech-to-Text
+2025-05-11 02:09:49 [INFO] app.app.services.speech_services:72 - _init_providers: Initialized Neuphonic for Text-to-Speech
+2025-05-11 02:09:49 [INFO] app.app.services.notification_service:33 - __init__: Twilio SMS notifications initialized
+2025-05-11 02:09:49 [INFO] app.config.livekit_config:53 - _load_sip_trunk_config: Loaded SIP trunk config with ID: st_1746861080
+2025-05-11 02:09:51 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 02:09:52 [INFO] app.app.services.speech_services:64 - _init_providers: Initialized Deepgram for Speech-to-Text
+2025-05-11 02:09:52 [INFO] app.app.services.speech_services:72 - _init_providers: Initialized Neuphonic for Text-to-Speech
+2025-05-11 02:09:52 [INFO] app.app.services.notification_service:33 - __init__: Twilio SMS notifications initialized
+2025-05-11 02:09:52 [INFO] app.config.livekit_config:53 - _load_sip_trunk_config: Loaded SIP trunk config with ID: st_1746861080
+2025-05-11 02:09:57 [ERROR] app.__main__:46 - <module>: Worker failed: 
+Traceback (most recent call last):
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\watcher.py", line 90, in run
+    await watchfiles.arun_process(
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\watchfiles\run.py", line 216, in arun_process
+    async for changes in awatch(
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\watchfiles\main.py", line 254, in awatch
+    async with anyio.create_task_group() as tg:
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 776, in __aexit__
+    raise exc_val
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\watchfiles\main.py", line 256, in awatch
+    raw_changes = await anyio.to_thread.run_sync(watcher.watch, debounce, step, timeout, stop_event_)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\anyio\to_thread.py", line 56, in run_sync
+    return await get_async_backend().run_sync_in_worker_thread(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\anyio\_backends\_asyncio.py", line 2470, in run_sync_in_worker_thread
+    return await future
+           ^^^^^^^^^^^^
+asyncio.exceptions.CancelledError
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 57, in aclose
+    await self._writer.wait_closed()
+  File "C:\Users\priya\anaconda3\Lib\asyncio\streams.py", line 364, in wait_closed
+    await self._protocol._get_close_waiter(self)
+  File "C:\Users\priya\anaconda3\Lib\asyncio\proactor_events.py", line 402, in _loop_writing
+    self._write_fut = self._loop._proactor.send(self._sock, data)
+                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\windows_events.py", line 542, in send
+    ov.WSASend(conn.fileno(), buf, flags)
+ConnectionAbortedError: [WinError 10053] An established connection was aborted by the software in your host machine
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\frontdesk\voicetest\backend\run_agent.py", line 44, in <module>
+    run_worker()
+  File "C:\frontdesk\voicetest\backend\app\agents\voice_agent_simple.py", line 229, in run_worker
+    cli.run_app(worker_options)
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 187, in run_app
+    cli()
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\click\core.py", line 1161, in __call__
+    return self.main(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\click\core.py", line 1082, in main
+    rv = self.invoke(ctx)
+         ^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\click\core.py", line 1697, in invoke
+    return _process_result(sub_ctx.command.invoke(sub_ctx))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\click\core.py", line 1443, in invoke
+    return ctx.invoke(self.callback, **ctx.params)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\click\core.py", line 788, in invoke
+    return __callback(*args, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 108, in dev
+    _run_dev(opts, log_level, url, api_key, api_secret, asyncio_debug, watch)
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 228, in _run_dev
+    asyncio.run(_run_loop())
+  File "C:\Users\priya\anaconda3\Lib\asyncio\runners.py", line 194, in run
+    return runner.run(main)
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\runners.py", line 118, in run
+    return self._loop.run_until_complete(task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\priya\anaconda3\Lib\asyncio\base_events.py", line 687, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\cli.py", line 225, in _run_loop
+    await server.run()
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\cli\watcher.py", line 99, in run
+    await self._pch.aclose()
+  File "C:\frontdesk\voicetest\backend\venv\Lib\site-packages\livekit\agents\utils\aio\duplex_unix.py", line 60, in aclose
+    raise DuplexClosed()
+livekit.agents.utils.aio.duplex_unix.DuplexClosed
+2025-05-11 14:23:57 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 14:23:57 [INFO] app.__main__:22 - <module>: Starting Voice Agent Worker...
+2025-05-11 14:23:57 [INFO] app.__main__:23 - <module>: Using Deepgram STT (nova-3, multi-language)
+2025-05-11 14:23:57 [INFO] app.__main__:24 - <module>: Using Groq LLM (llama3-8b-8192)
+2025-05-11 14:23:57 [INFO] app.__main__:25 - <module>: Using Neuphonic TTS
+2025-05-11 14:23:57 [INFO] app.app.agents.voice_agent:203 - run_worker: Starting voice agent worker with Deepgram/Groq/Neuphonic...
+2025-05-11 14:23:57 [INFO] app.app.agents.voice_agent:204 - run_worker: LiveKit URL: telephony-k2ukb9dj.livekit.cloud
+2025-05-11 14:23:57 [INFO] app.app.agents.voice_agent:205 - run_worker: Business Name: Elegant Touch Salon
+2025-05-11 14:23:57 [INFO] app.app.agents.voice_agent:206 - run_worker: STT Provider: deepgram  # Options: deepgram, assemblyai, google
+2025-05-11 14:23:57 [INFO] app.app.agents.voice_agent:207 - run_worker: TTS Provider: assemblyai  # Options: neuphonic, elevenlabs, google
+2025-05-11 19:10:19 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 19:10:19 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 19:10:44 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 19:10:44 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 19:10:44 [INFO] app.__main__:38 - run_server: Starting server on 0.0.0.0:5000 (reload=False)
+2025-05-11 19:10:45 [INFO] app.app.main:100 - startup_event: Starting up application...
+2025-05-11 19:10:45 [INFO] app.app.main:108 - startup_event: Initializing database tables...
+2025-05-11 19:10:45 [INFO] app.app.models.help_request:199 - init_table: Using existing DynamoDB table: HelpRequests
+2025-05-11 19:10:46 [INFO] app.app.models.knowledge_base:102 - init_table: Using existing DynamoDB table: KnowledgeBase
+2025-05-11 19:10:46 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 19:10:46 [INFO] app.app.main:114 - startup_event: Initializing AI agent...
+2025-05-11 19:10:46 [ERROR] app.config.livekit_config:81 - validate: Invalid LiveKit URL format!
+2025-05-11 19:10:46 [ERROR] app.config.livekit_config:82 - validate: The URL should not include protocol (https://) or trailing slash
+2025-05-11 19:10:46 [ERROR] app.app.integrations.livekit_sip:65 - initialize: Invalid LiveKit configuration, SIP integration disabled
+2025-05-11 19:10:46 [WARNING] app.app.main:128 - startup_event: AI agent initialization failed or LiveKit SIP is disabled
+2025-05-11 19:10:46 [INFO] app.app.main:133 - startup_event: Application startup complete
+2025-05-11 19:13:34 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 19:13:34 [INFO] app.__main__:22 - <module>: Starting Voice Agent Worker...
+2025-05-11 19:13:34 [INFO] app.__main__:23 - <module>: Using Deepgram STT (nova-3, multi-language)
+2025-05-11 19:13:34 [INFO] app.__main__:24 - <module>: Using Groq LLM (llama3-8b-8192)
+2025-05-11 19:13:34 [INFO] app.__main__:25 - <module>: Using Neuphonic TTS
+2025-05-11 19:13:34 [INFO] app.app.agents.voice_agent:221 - run_worker: Starting LiveKit Voice Agent Worker...
+2025-05-11 19:13:34 [INFO] app.app.agents.voice_agent:222 - run_worker: LiveKit URL: telephony-k2ukb9dj.livekit.cloud
+2025-05-11 19:13:34 [INFO] app.app.agents.voice_agent:223 - run_worker: Business Name: Elegant Touch Salon
+2025-05-11 19:13:34 [INFO] app.app.agents.voice_agent:224 - run_worker: STT: Deepgram | LLM: Groq | TTS: Neuphonic
+2025-05-11 19:13:40 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 19:13:40 [INFO] app.__main__:22 - <module>: Starting Voice Agent Worker...
+2025-05-11 19:13:40 [INFO] app.__main__:23 - <module>: Using Deepgram STT (nova-3, multi-language)
+2025-05-11 19:13:40 [INFO] app.__main__:24 - <module>: Using Groq LLM (llama3-8b-8192)
+2025-05-11 19:13:40 [INFO] app.__main__:25 - <module>: Using Neuphonic TTS
+2025-05-11 19:13:40 [INFO] app.app.agents.voice_agent:221 - run_worker: Starting LiveKit Voice Agent Worker...
+2025-05-11 19:13:40 [INFO] app.app.agents.voice_agent:222 - run_worker: LiveKit URL: telephony-k2ukb9dj.livekit.cloud
+2025-05-11 19:13:40 [INFO] app.app.agents.voice_agent:223 - run_worker: Business Name: Elegant Touch Salon
+2025-05-11 19:13:40 [INFO] app.app.agents.voice_agent:224 - run_worker: STT: Deepgram | LLM: Groq | TTS: Neuphonic
+2025-05-11 19:13:41 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 19:14:15 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 19:14:15 [INFO] app.__main__:22 - <module>: Starting Voice Agent Worker...
+2025-05-11 19:14:15 [INFO] app.__main__:23 - <module>: Using Deepgram STT (nova-3, multi-language)
+2025-05-11 19:14:15 [INFO] app.__main__:24 - <module>: Using Groq LLM (llama3-8b-8192)
+2025-05-11 19:14:15 [INFO] app.__main__:25 - <module>: Using Neuphonic TTS
+2025-05-11 19:14:15 [INFO] app.app.agents.voice_agent:221 - run_worker: Starting LiveKit Voice Agent Worker...
+2025-05-11 19:14:15 [INFO] app.app.agents.voice_agent:222 - run_worker: LiveKit URL: wss://telephony-k2ukb9dj.livekit.cloud
+2025-05-11 19:14:15 [INFO] app.app.agents.voice_agent:223 - run_worker: Business Name: Elegant Touch Salon
+2025-05-11 19:14:15 [INFO] app.app.agents.voice_agent:224 - run_worker: STT: Deepgram | LLM: Groq | TTS: Neuphonic
+2025-05-11 19:14:17 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
+2025-05-11 19:14:36 [INFO] app.app.agents.voice_agent:78 - entrypoint: Voice agent started for room playground-82AG-94j9
+2025-05-11 19:14:37 [INFO] app.app.agents.voice_agent:104 - entrypoint: Starting voice assistant for call call_playground-82AG-94j9 from unknown
+2025-05-11 19:14:37 [INFO] app.app.services.ai_agent:76 - handle_incoming_call: Handling incoming call call_playground-82AG-94j9 from unknown
+2025-05-11 19:14:38 [INFO] app.app.models.call_record:125 - init_table: Using existing DynamoDB table: CallRecords
+2025-05-11 19:14:38 [INFO] app.app.models.call_record:164 - save: Saved call record call_playground-82AG-94j9
+2025-05-11 19:14:38 [INFO] app.app.services.ai_agent:210 - send_response: RESPONSE TO CALL call_playground-82AG-94j9: "Thank you for calling Elegant Touch Salon. How can I help you today?"
+2025-05-11 19:15:18 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-11 19:15:30 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-11 19:15:37 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-11 19:22:01 [ERROR] app.app.main:174 - server_error_handler: Server error: 'HTTPException' object is not callable
+2025-05-11 19:34:57 [INFO] app:82 - setup_logging: Logging initialized with level: INFO
